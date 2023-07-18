@@ -1,4 +1,4 @@
-package tabler_icons
+package lucide_icons
 
 import (
 	"embed"
