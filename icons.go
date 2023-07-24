@@ -46,7 +46,7 @@ func Icon(name string, stainColor ...color.Color) (fyne.Resource, error) {
 	} else if icon, readErr := io.ReadAll(f); readErr != nil {
 		return nil, readErr
 	} else {
-		// tabler icons must be stained before use
+		// lucide icons must be stained before use
 		cache[cacheId] = NewStainedSVGResource(name, icon, stainColor[0])
 
 		logger.Debug().Str("name", name).Str("stain", gamut.ToHex(stainColor[0])).Msg("lucide-icon has been loaded + cached")
