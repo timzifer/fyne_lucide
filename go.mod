@@ -1,4 +1,4 @@
-module gitlab.com/eshaker/golang/fyne/lucide_icons
+module github.com/timzifer/fyne-lucide-icons
 
 go 1.20
 
