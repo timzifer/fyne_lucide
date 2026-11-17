@@ -1,0 +1,849 @@
+{
+  "version": "1.74.0",
+  "releases": [
+    "0.93.0",
+    "1.74.0"
+  ],
+  "aliases": [
+    {
+      "name": "alarm-check",
+      "target": "alarm-clock-check",
+      "since": "1.74.0",
+      "source": "upstream"
+    },
+    {
+      "name": "alarm-minus",
+      "target": "alarm-clock-minus",
+      "since": "1.74.0",
+      "source": "upstream"
+    },
+    {
+      "name": "alarm-plus",
+      "target": "alarm-clock-plus",
+      "since": "1.74.0",
+      "source": "upstream"
+    },
+    {
+      "name": "album",
+      "target": "square-bookmark",
+      "since": "1.74.0",
+      "source": "upstream"
+    },
+    {
+      "name": "alert-circle",
+      "target": "circle-exclamation-point",
+      "since": "1.74.0",
+      "source": "upstream"
+    },
+    {
+      "name": "alert-octagon",
+      "target": "octagon-exclamation-point",
+      "since": "1.74.0",
+      "source": "upstream"
+    },
+    {
+      "name": "alert-triangle",
+      "target": "triangle-exclamation-point",
+      "since": "1.74.0",
+      "source": "upstream"
+    },
+    {
+      "name": "align-center",
+      "target": "text-align-center",
+      "since": "1.74.0",
+      "source": "upstream"
+    },
+    {
+      "name": "align-justify",
+      "target": "text-align-justify",
+      "since": "1.74.0",
+      "source": "upstream"
+    },
+    {
+      "name": "align-left",
+      "target": "text-align-start",
+      "since": "1.74.0",
+      "source": "upstream"
+    },
+    {
+      "name": "align-right",
+      "target": "text-align-end",
+      "since": "1.74.0",
+      "source": "upstream"
+    },
+    {
+      "name": "angry",
+      "target": "face-angry",
+      "since": "1.74.0",
+      "source": "upstream"
+    },
+    {
+      "name": "annoyed",
+      "target": "face-expressionless",
+      "since": "1.74.0",
+      "source": "upstream"
+    },
+    {
+      "name": "archive-restore",
+      "target": "archive-arrow-up",
+      "since": "1.74.0",
+      "source": "upstream"
+    },
+    {
+      "name": "arrow-down-circle",
+      "target": "circle-arrow-down",
+      "since": "1.74.0",
+      "source": "upstream"
+    },
+    {
+      "name": "arrow-left-circle",
+      "target": "circle-arrow-left",
+      "since": "1.74.0",
+      "source": "upstream"
+    },
+    {
+      "name": "arrow-right-circle",
+      "target": "circle-arrow-right",
+      "since": "1.74.0",
+      "source": "upstream"
+    },
+    {
+      "name": "arrow-up-circle",
+      "target": "circle-arrow-up",
+      "since": "1.74.0",
+      "source": "upstream"
+    },
+    {
+      "name": "bar-chart",
+      "target": "chart-no-axes-column-increasing",
+      "since": "1.74.0",
+      "source": "upstream"
+    },
+    {
+      "name": "bar-chart-2",
+      "target": "chart-no-axes-column",
+      "since": "1.74.0",
+      "source": "upstream"
+    },
+    {
+      "name": "bar-chart-3",
+      "target": "chart-column",
+      "since": "1.74.0",
+      "source": "upstream"
+    },
+    {
+      "name": "bar-chart-4",
+      "target": "chart-column-increasing",
+      "since": "1.74.0",
+      "source": "upstream"
+    },
+    {
+      "name": "bar-chart-horizontal",
+      "target": "chart-bar",
+      "since": "1.74.0",
+      "source": "upstream"
+    },
+    {
+      "name": "bold",
+      "target": "letter-b",
+      "since": "1.74.0",
+      "source": "upstream"
+    },
+    {
+      "name": "box-select",
+      "target": "square-dashed",
+      "since": "1.74.0",
+      "source": "upstream"
+    },
+    {
+      "name": "building-2",
+      "target": "building-complex",
+      "since": "1.74.0",
+      "source": "upstream"
+    },
+    {
+      "name": "check-circle",
+      "target": "circle-check-big",
+      "since": "1.74.0",
+      "source": "upstream"
+    },
+    {
+      "name": "check-circle-2",
+      "target": "circle-check",
+      "since": "1.74.0",
+      "source": "upstream"
+    },
+    {
+      "name": "check-square",
+      "target": "square-check-big",
+      "since": "1.74.0",
+      "source": "upstream"
+    },
+    {
+      "name": "circle-slashed",
+      "target": "circle-slash-2",
+      "since": "1.74.0",
+      "source": "upstream"
+    },
+    {
+      "name": "clipboard-edit",
+      "target": "clipboard-pen",
+      "since": "1.74.0",
+      "source": "upstream"
+    },
+    {
+      "name": "clipboard-signature",
+      "target": "clipboard-pen-line",
+      "since": "1.74.0",
+      "source": "upstream"
+    },
+    {
+      "name": "code-2",
+      "target": "code-xml",
+      "since": "1.74.0",
+      "source": "upstream"
+    },
+    {
+      "name": "columns",
+      "target": "columns-2",
+      "since": "1.74.0",
+      "source": "upstream"
+    },
+    {
+      "name": "copyright",
+      "target": "circle-letter-c",
+      "since": "1.74.0",
+      "source": "upstream"
+    },
+    {
+      "name": "curly-braces",
+      "target": "braces",
+      "since": "1.74.0",
+      "source": "upstream"
+    },
+    {
+      "name": "divide-circle",
+      "target": "circle-divide",
+      "since": "1.74.0",
+      "source": "upstream"
+    },
+    {
+      "name": "divide-square",
+      "target": "square-divide",
+      "since": "1.74.0",
+      "source": "upstream"
+    },
+    {
+      "name": "download-cloud",
+      "target": "cloud-download",
+      "since": "1.74.0",
+      "source": "upstream"
+    },
+    {
+      "name": "edit",
+      "target": "square-pen",
+      "since": "1.74.0",
+      "source": "upstream"
+    },
+    {
+      "name": "edit-2",
+      "target": "pen",
+      "since": "1.74.0",
+      "source": "upstream"
+    },
+    {
+      "name": "edit-3",
+      "target": "pen-line",
+      "since": "1.74.0",
+      "source": "upstream"
+    },
+    {
+      "name": "file-audio",
+      "target": "file-headphone",
+      "since": "1.74.0",
+      "source": "upstream"
+    },
+    {
+      "name": "file-audio-2",
+      "target": "file-headphone",
+      "since": "1.74.0",
+      "source": "upstream"
+    },
+    {
+      "name": "file-badge-2",
+      "target": "file-badge",
+      "since": "1.74.0",
+      "source": "upstream"
+    },
+    {
+      "name": "file-bar-chart",
+      "target": "file-chart-column-increasing",
+      "since": "1.74.0",
+      "source": "upstream"
+    },
+    {
+      "name": "file-bar-chart-2",
+      "target": "file-chart-column",
+      "since": "1.74.0",
+      "source": "upstream"
+    },
+    {
+      "name": "file-check-2",
+      "target": "file-check-corner",
+      "since": "1.74.0",
+      "source": "upstream"
+    },
+    {
+      "name": "file-cog-2",
+      "target": "file-cog",
+      "since": "1.74.0",
+      "source": "upstream"
+    },
+    {
+      "name": "file-edit",
+      "target": "file-pen",
+      "since": "1.74.0",
+      "source": "upstream"
+    },
+    {
+      "name": "file-json",
+      "target": "file-braces",
+      "since": "1.74.0",
+      "source": "upstream"
+    },
+    {
+      "name": "file-json-2",
+      "target": "file-braces-corner",
+      "since": "1.74.0",
+      "source": "upstream"
+    },
+    {
+      "name": "file-key-2",
+      "target": "file-key",
+      "since": "1.74.0",
+      "source": "upstream"
+    },
+    {
+      "name": "file-line-chart",
+      "target": "file-chart-line",
+      "since": "1.74.0",
+      "source": "upstream"
+    },
+    {
+      "name": "file-lock-2",
+      "target": "file-lock",
+      "since": "1.74.0",
+      "source": "upstream"
+    },
+    {
+      "name": "file-minus-2",
+      "target": "file-minus-corner",
+      "since": "1.74.0",
+      "source": "upstream"
+    },
+    {
+      "name": "file-pie-chart",
+      "target": "file-chart-pie",
+      "since": "1.74.0",
+      "source": "upstream"
+    },
+    {
+      "name": "file-plus-2",
+      "target": "file-plus-corner",
+      "since": "1.74.0",
+      "source": "upstream"
+    },
+    {
+      "name": "file-question",
+      "target": "file-question-mark",
+      "since": "1.74.0",
+      "source": "upstream"
+    },
+    {
+      "name": "file-search-2",
+      "target": "file-search-corner",
+      "since": "1.74.0",
+      "source": "upstream"
+    },
+    {
+      "name": "file-signature",
+      "target": "file-pen-line",
+      "since": "1.74.0",
+      "source": "upstream"
+    },
+    {
+      "name": "file-type-2",
+      "target": "file-type-corner",
+      "since": "1.74.0",
+      "source": "upstream"
+    },
+    {
+      "name": "file-video",
+      "target": "file-play",
+      "since": "1.74.0",
+      "source": "upstream"
+    },
+    {
+      "name": "file-video-2",
+      "target": "file-video-camera",
+      "since": "1.74.0",
+      "source": "upstream"
+    },
+    {
+      "name": "file-volume-2",
+      "target": "file-signal",
+      "since": "1.74.0",
+      "source": "upstream"
+    },
+    {
+      "name": "file-warning",
+      "target": "file-exclamation-point",
+      "since": "1.74.0",
+      "source": "upstream"
+    },
+    {
+      "name": "file-x-2",
+      "target": "file-x-corner",
+      "since": "1.74.0",
+      "source": "upstream"
+    },
+    {
+      "name": "filter",
+      "target": "funnel",
+      "since": "1.74.0",
+      "source": "upstream"
+    },
+    {
+      "name": "fingerprint",
+      "target": "fingerprint-pattern",
+      "since": "1.74.0",
+      "source": "upstream"
+    },
+    {
+      "name": "flip-horizontal",
+      "target": "square-axis-dashed-vertical",
+      "since": "1.74.0",
+      "source": "upstream"
+    },
+    {
+      "name": "flip-horizontal-2",
+      "target": "carets-to-axis-dashed-horizontal",
+      "since": "1.74.0",
+      "source": "upstream"
+    },
+    {
+      "name": "flip-vertical",
+      "target": "square-axis-dashed-horizontal",
+      "since": "1.74.0",
+      "source": "upstream"
+    },
+    {
+      "name": "flip-vertical-2",
+      "target": "carets-to-axis-dashed-vertical",
+      "since": "1.74.0",
+      "source": "upstream"
+    },
+    {
+      "name": "folder-cog-2",
+      "target": "folder-cog",
+      "since": "1.74.0",
+      "source": "upstream"
+    },
+    {
+      "name": "folder-edit",
+      "target": "folder-pen",
+      "since": "1.74.0",
+      "source": "upstream"
+    },
+    {
+      "name": "form-input",
+      "target": "rectangle-ellipsis",
+      "since": "1.74.0",
+      "source": "upstream"
+    },
+    {
+      "name": "frown",
+      "target": "face-slightly-frowning",
+      "since": "1.74.0",
+      "source": "upstream"
+    },
+    {
+      "name": "function-square",
+      "target": "square-function",
+      "since": "1.74.0",
+      "source": "upstream"
+    },
+    {
+      "name": "git-commit",
+      "target": "git-commit-horizontal",
+      "since": "1.74.0",
+      "source": "upstream"
+    },
+    {
+      "name": "globe-2",
+      "target": "earth",
+      "since": "1.74.0",
+      "source": "upstream"
+    },
+    {
+      "name": "grab",
+      "target": "hand-grab",
+      "since": "1.74.0",
+      "source": "upstream"
+    },
+    {
+      "name": "grid",
+      "target": "grid-3x3",
+      "since": "1.74.0",
+      "source": "upstream"
+    },
+    {
+      "name": "heading",
+      "target": "letter-h",
+      "since": "1.74.0",
+      "source": "upstream"
+    },
+    {
+      "name": "help-circle",
+      "target": "circle-question-mark",
+      "since": "1.74.0",
+      "source": "upstream"
+    },
+    {
+      "name": "history",
+      "target": "rotate-ccw-clock",
+      "since": "1.74.0",
+      "source": "upstream"
+    },
+    {
+      "name": "home",
+      "target": "house",
+      "since": "1.74.0",
+      "source": "upstream"
+    },
+    {
+      "name": "ice-cream",
+      "target": "ice-cream-cone",
+      "since": "1.74.0",
+      "source": "upstream"
+    },
+    {
+      "name": "indent",
+      "target": "list-indent-increase",
+      "since": "1.74.0",
+      "source": "upstream"
+    },
+    {
+      "name": "inspect",
+      "target": "square-mouse-pointer",
+      "since": "1.74.0",
+      "source": "upstream"
+    },
+    {
+      "name": "laptop-2",
+      "target": "laptop-minimal",
+      "since": "1.74.0",
+      "source": "upstream"
+    },
+    {
+      "name": "laugh",
+      "target": "face-grinning",
+      "since": "1.74.0",
+      "source": "upstream"
+    },
+    {
+      "name": "layout",
+      "target": "panels-top-left",
+      "since": "1.74.0",
+      "source": "upstream"
+    },
+    {
+      "name": "line-chart",
+      "target": "chart-line",
+      "since": "1.74.0",
+      "source": "upstream"
+    },
+    {
+      "name": "loader-2",
+      "target": "loader-circle",
+      "since": "1.74.0",
+      "source": "upstream"
+    },
+    {
+      "name": "mail-question",
+      "target": "mail-question-mark",
+      "since": "1.74.0",
+      "source": "upstream"
+    },
+    {
+      "name": "mail-warning",
+      "target": "mail-exclamation-point",
+      "since": "1.74.0",
+      "source": "upstream"
+    },
+    {
+      "name": "meh",
+      "target": "face-neutral",
+      "since": "1.74.0",
+      "source": "upstream"
+    },
+    {
+      "name": "mic-2",
+      "target": "mic-vocal",
+      "since": "1.74.0",
+      "source": "upstream"
+    },
+    {
+      "name": "minus-circle",
+      "target": "circle-minus",
+      "since": "1.74.0",
+      "source": "upstream"
+    },
+    {
+      "name": "minus-square",
+      "target": "square-minus",
+      "since": "1.74.0",
+      "source": "upstream"
+    },
+    {
+      "name": "more-horizontal",
+      "target": "ellipsis",
+      "since": "1.74.0",
+      "source": "upstream"
+    },
+    {
+      "name": "more-vertical",
+      "target": "ellipsis-vertical",
+      "since": "1.74.0",
+      "source": "upstream"
+    },
+    {
+      "name": "music",
+      "target": "eighth-notes",
+      "since": "1.74.0",
+      "source": "upstream"
+    },
+    {
+      "name": "music-2",
+      "target": "eighth-note",
+      "since": "1.74.0",
+      "source": "upstream"
+    },
+    {
+      "name": "music-3",
+      "target": "half-note",
+      "since": "1.74.0",
+      "source": "upstream"
+    },
+    {
+      "name": "music-4",
+      "target": "sixteenth-notes",
+      "since": "1.74.0",
+      "source": "upstream"
+    },
+    {
+      "name": "outdent",
+      "target": "list-indent-decrease",
+      "since": "1.74.0",
+      "source": "upstream"
+    },
+    {
+      "name": "paintbrush-2",
+      "target": "paintbrush-vertical",
+      "since": "1.74.0",
+      "source": "upstream"
+    },
+    {
+      "name": "palmtree",
+      "target": "tree-palm",
+      "since": "1.74.0",
+      "source": "upstream"
+    },
+    {
+      "name": "pause-circle",
+      "target": "circle-pause",
+      "since": "1.74.0",
+      "source": "upstream"
+    },
+    {
+      "name": "pause-octagon",
+      "target": "octagon-pause",
+      "since": "1.74.0",
+      "source": "upstream"
+    },
+    {
+      "name": "pie-chart",
+      "target": "chart-pie",
+      "since": "1.74.0",
+      "source": "upstream"
+    },
+    {
+      "name": "play-circle",
+      "target": "circle-play",
+      "since": "1.74.0",
+      "source": "upstream"
+    },
+    {
+      "name": "plus-circle",
+      "target": "circle-plus",
+      "since": "1.74.0",
+      "source": "upstream"
+    },
+    {
+      "name": "plus-square",
+      "target": "square-plus",
+      "since": "1.74.0",
+      "source": "upstream"
+    },
+    {
+      "name": "podcast",
+      "target": "mic-signal",
+      "since": "1.74.0",
+      "source": "upstream"
+    },
+    {
+      "name": "shield-alert",
+      "target": "shield-exclamation-point",
+      "since": "1.74.0",
+      "source": "upstream"
+    },
+    {
+      "name": "shield-close",
+      "target": "shield-x",
+      "since": "1.74.0",
+      "source": "upstream"
+    },
+    {
+      "name": "sidebar",
+      "target": "panel-left",
+      "since": "1.74.0",
+      "source": "upstream"
+    },
+    {
+      "name": "sidebar-close",
+      "target": "panel-left-close",
+      "since": "1.74.0",
+      "source": "upstream"
+    },
+    {
+      "name": "sidebar-open",
+      "target": "panel-left-open",
+      "since": "1.74.0",
+      "source": "upstream"
+    },
+    {
+      "name": "sliders",
+      "target": "sliders-vertical",
+      "since": "1.74.0",
+      "source": "upstream"
+    },
+    {
+      "name": "smile",
+      "target": "face-slightly-smiling",
+      "since": "1.74.0",
+      "source": "upstream"
+    },
+    {
+      "name": "smile-plus",
+      "target": "face-slightly-smiling-plus",
+      "since": "1.74.0",
+      "source": "upstream"
+    },
+    {
+      "name": "sort-asc",
+      "target": "arrow-up-narrow-wide",
+      "since": "1.74.0",
+      "source": "upstream"
+    },
+    {
+      "name": "sort-desc",
+      "target": "arrow-down-wide-narrow",
+      "since": "1.74.0",
+      "source": "upstream"
+    },
+    {
+      "name": "stop-circle",
+      "target": "circle-stop",
+      "since": "1.74.0",
+      "source": "upstream"
+    },
+    {
+      "name": "terminal-square",
+      "target": "square-terminal",
+      "since": "1.74.0",
+      "source": "upstream"
+    },
+    {
+      "name": "train",
+      "target": "tram-front",
+      "since": "1.74.0",
+      "source": "upstream"
+    },
+    {
+      "name": "trash-2",
+      "target": "trash",
+      "since": "1.74.0",
+      "source": "upstream"
+    },
+    {
+      "name": "tv-2",
+      "target": "tv-minimal",
+      "since": "1.74.0",
+      "source": "upstream"
+    },
+    {
+      "name": "unlock",
+      "target": "lock-open",
+      "since": "1.74.0",
+      "source": "upstream"
+    },
+    {
+      "name": "upload-cloud",
+      "target": "cloud-upload",
+      "since": "1.74.0",
+      "source": "upstream"
+    },
+    {
+      "name": "verified",
+      "target": "badge-check",
+      "since": "1.74.0",
+      "source": "upstream"
+    },
+    {
+      "name": "wand-2",
+      "target": "wand-sparkles",
+      "since": "1.74.0",
+      "source": "upstream"
+    },
+    {
+      "name": "waves",
+      "target": "waves-horizontal",
+      "since": "1.74.0",
+      "source": "upstream"
+    },
+    {
+      "name": "wrap-text",
+      "target": "text-wrap",
+      "since": "1.74.0",
+      "source": "upstream"
+    },
+    {
+      "name": "x-circle",
+      "target": "circle-x",
+      "since": "1.74.0",
+      "source": "upstream"
+    },
+    {
+      "name": "x-octagon",
+      "target": "octagon-x",
+      "since": "1.74.0",
+      "source": "upstream"
+    },
+    {
+      "name": "x-square",
+      "target": "square-x",
+      "since": "1.74.0",
+      "source": "upstream"
+    }
+  ]
+}

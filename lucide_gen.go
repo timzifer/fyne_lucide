@@ -3,11 +3,713 @@
 package fyne_lucide
 
 // LucideVersion is the release of Lucide embedded in this package.
-const LucideVersion = "0.93.0"
+const LucideVersion = "1.74.0"
 
-// Deprecated aliases of 0 renamed icons. Like upstream, each alias is kept
+// Deprecated aliases of 140 renamed icons. Like upstream, each alias is kept
 // until the next major release of Lucide.
-var ()
+var (
+	// IconAlarmCheck is the former name of IconAlarmClockCheck.
+	//
+	// Deprecated: Lucide 1.74.0 renamed "alarm-check" to "alarm-clock-check", use IconAlarmClockCheck. The alias is removed with Lucide 2.
+	IconAlarmCheck = IconAlarmClockCheck
+	// IconAlarmMinus is the former name of IconAlarmClockMinus.
+	//
+	// Deprecated: Lucide 1.74.0 renamed "alarm-minus" to "alarm-clock-minus", use IconAlarmClockMinus. The alias is removed with Lucide 2.
+	IconAlarmMinus = IconAlarmClockMinus
+	// IconAlarmPlus is the former name of IconAlarmClockPlus.
+	//
+	// Deprecated: Lucide 1.74.0 renamed "alarm-plus" to "alarm-clock-plus", use IconAlarmClockPlus. The alias is removed with Lucide 2.
+	IconAlarmPlus = IconAlarmClockPlus
+	// IconAlbum is the former name of IconSquareBookmark.
+	//
+	// Deprecated: Lucide 1.74.0 renamed "album" to "square-bookmark", use IconSquareBookmark. The alias is removed with Lucide 2.
+	IconAlbum = IconSquareBookmark
+	// IconAlertCircle is the former name of IconCircleExclamationPoint.
+	//
+	// Deprecated: Lucide 1.74.0 renamed "alert-circle" to "circle-exclamation-point", use IconCircleExclamationPoint. The alias is removed with Lucide 2.
+	IconAlertCircle = IconCircleExclamationPoint
+	// IconAlertOctagon is the former name of IconOctagonExclamationPoint.
+	//
+	// Deprecated: Lucide 1.74.0 renamed "alert-octagon" to "octagon-exclamation-point", use IconOctagonExclamationPoint. The alias is removed with Lucide 2.
+	IconAlertOctagon = IconOctagonExclamationPoint
+	// IconAlertTriangle is the former name of IconTriangleExclamationPoint.
+	//
+	// Deprecated: Lucide 1.74.0 renamed "alert-triangle" to "triangle-exclamation-point", use IconTriangleExclamationPoint. The alias is removed with Lucide 2.
+	IconAlertTriangle = IconTriangleExclamationPoint
+	// IconAlignCenter is the former name of IconTextAlignCenter.
+	//
+	// Deprecated: Lucide 1.74.0 renamed "align-center" to "text-align-center", use IconTextAlignCenter. The alias is removed with Lucide 2.
+	IconAlignCenter = IconTextAlignCenter
+	// IconAlignJustify is the former name of IconTextAlignJustify.
+	//
+	// Deprecated: Lucide 1.74.0 renamed "align-justify" to "text-align-justify", use IconTextAlignJustify. The alias is removed with Lucide 2.
+	IconAlignJustify = IconTextAlignJustify
+	// IconAlignLeft is the former name of IconTextAlignStart.
+	//
+	// Deprecated: Lucide 1.74.0 renamed "align-left" to "text-align-start", use IconTextAlignStart. The alias is removed with Lucide 2.
+	IconAlignLeft = IconTextAlignStart
+	// IconAlignRight is the former name of IconTextAlignEnd.
+	//
+	// Deprecated: Lucide 1.74.0 renamed "align-right" to "text-align-end", use IconTextAlignEnd. The alias is removed with Lucide 2.
+	IconAlignRight = IconTextAlignEnd
+	// IconAngry is the former name of IconFaceAngry.
+	//
+	// Deprecated: Lucide 1.74.0 renamed "angry" to "face-angry", use IconFaceAngry. The alias is removed with Lucide 2.
+	IconAngry = IconFaceAngry
+	// IconAnnoyed is the former name of IconFaceExpressionless.
+	//
+	// Deprecated: Lucide 1.74.0 renamed "annoyed" to "face-expressionless", use IconFaceExpressionless. The alias is removed with Lucide 2.
+	IconAnnoyed = IconFaceExpressionless
+	// IconArchiveRestore is the former name of IconArchiveArrowUp.
+	//
+	// Deprecated: Lucide 1.74.0 renamed "archive-restore" to "archive-arrow-up", use IconArchiveArrowUp. The alias is removed with Lucide 2.
+	IconArchiveRestore = IconArchiveArrowUp
+	// IconArrowDownCircle is the former name of IconCircleArrowDown.
+	//
+	// Deprecated: Lucide 1.74.0 renamed "arrow-down-circle" to "circle-arrow-down", use IconCircleArrowDown. The alias is removed with Lucide 2.
+	IconArrowDownCircle = IconCircleArrowDown
+	// IconArrowLeftCircle is the former name of IconCircleArrowLeft.
+	//
+	// Deprecated: Lucide 1.74.0 renamed "arrow-left-circle" to "circle-arrow-left", use IconCircleArrowLeft. The alias is removed with Lucide 2.
+	IconArrowLeftCircle = IconCircleArrowLeft
+	// IconArrowRightCircle is the former name of IconCircleArrowRight.
+	//
+	// Deprecated: Lucide 1.74.0 renamed "arrow-right-circle" to "circle-arrow-right", use IconCircleArrowRight. The alias is removed with Lucide 2.
+	IconArrowRightCircle = IconCircleArrowRight
+	// IconArrowUpCircle is the former name of IconCircleArrowUp.
+	//
+	// Deprecated: Lucide 1.74.0 renamed "arrow-up-circle" to "circle-arrow-up", use IconCircleArrowUp. The alias is removed with Lucide 2.
+	IconArrowUpCircle = IconCircleArrowUp
+	// IconBarChart is the former name of IconChartNoAxesColumnIncreasing.
+	//
+	// Deprecated: Lucide 1.74.0 renamed "bar-chart" to "chart-no-axes-column-increasing", use IconChartNoAxesColumnIncreasing. The alias is removed with Lucide 2.
+	IconBarChart = IconChartNoAxesColumnIncreasing
+	// IconBarChart2 is the former name of IconChartNoAxesColumn.
+	//
+	// Deprecated: Lucide 1.74.0 renamed "bar-chart-2" to "chart-no-axes-column", use IconChartNoAxesColumn. The alias is removed with Lucide 2.
+	IconBarChart2 = IconChartNoAxesColumn
+	// IconBarChart3 is the former name of IconChartColumn.
+	//
+	// Deprecated: Lucide 1.74.0 renamed "bar-chart-3" to "chart-column", use IconChartColumn. The alias is removed with Lucide 2.
+	IconBarChart3 = IconChartColumn
+	// IconBarChart4 is the former name of IconChartColumnIncreasing.
+	//
+	// Deprecated: Lucide 1.74.0 renamed "bar-chart-4" to "chart-column-increasing", use IconChartColumnIncreasing. The alias is removed with Lucide 2.
+	IconBarChart4 = IconChartColumnIncreasing
+	// IconBarChartHorizontal is the former name of IconChartBar.
+	//
+	// Deprecated: Lucide 1.74.0 renamed "bar-chart-horizontal" to "chart-bar", use IconChartBar. The alias is removed with Lucide 2.
+	IconBarChartHorizontal = IconChartBar
+	// IconBold is the former name of IconLetterB.
+	//
+	// Deprecated: Lucide 1.74.0 renamed "bold" to "letter-b", use IconLetterB. The alias is removed with Lucide 2.
+	IconBold = IconLetterB
+	// IconBoxSelect is the former name of IconSquareDashed.
+	//
+	// Deprecated: Lucide 1.74.0 renamed "box-select" to "square-dashed", use IconSquareDashed. The alias is removed with Lucide 2.
+	IconBoxSelect = IconSquareDashed
+	// IconBuilding2 is the former name of IconBuildingComplex.
+	//
+	// Deprecated: Lucide 1.74.0 renamed "building-2" to "building-complex", use IconBuildingComplex. The alias is removed with Lucide 2.
+	IconBuilding2 = IconBuildingComplex
+	// IconCheckCircle is the former name of IconCircleCheckBig.
+	//
+	// Deprecated: Lucide 1.74.0 renamed "check-circle" to "circle-check-big", use IconCircleCheckBig. The alias is removed with Lucide 2.
+	IconCheckCircle = IconCircleCheckBig
+	// IconCheckCircle2 is the former name of IconCircleCheck.
+	//
+	// Deprecated: Lucide 1.74.0 renamed "check-circle-2" to "circle-check", use IconCircleCheck. The alias is removed with Lucide 2.
+	IconCheckCircle2 = IconCircleCheck
+	// IconCheckSquare is the former name of IconSquareCheckBig.
+	//
+	// Deprecated: Lucide 1.74.0 renamed "check-square" to "square-check-big", use IconSquareCheckBig. The alias is removed with Lucide 2.
+	IconCheckSquare = IconSquareCheckBig
+	// IconCircleSlashed is the former name of IconCircleSlash2.
+	//
+	// Deprecated: Lucide 1.74.0 renamed "circle-slashed" to "circle-slash-2", use IconCircleSlash2. The alias is removed with Lucide 2.
+	IconCircleSlashed = IconCircleSlash2
+	// IconClipboardEdit is the former name of IconClipboardPen.
+	//
+	// Deprecated: Lucide 1.74.0 renamed "clipboard-edit" to "clipboard-pen", use IconClipboardPen. The alias is removed with Lucide 2.
+	IconClipboardEdit = IconClipboardPen
+	// IconClipboardSignature is the former name of IconClipboardPenLine.
+	//
+	// Deprecated: Lucide 1.74.0 renamed "clipboard-signature" to "clipboard-pen-line", use IconClipboardPenLine. The alias is removed with Lucide 2.
+	IconClipboardSignature = IconClipboardPenLine
+	// IconCode2 is the former name of IconCodeXml.
+	//
+	// Deprecated: Lucide 1.74.0 renamed "code-2" to "code-xml", use IconCodeXml. The alias is removed with Lucide 2.
+	IconCode2 = IconCodeXml
+	// IconColumns is the former name of IconColumns2.
+	//
+	// Deprecated: Lucide 1.74.0 renamed "columns" to "columns-2", use IconColumns2. The alias is removed with Lucide 2.
+	IconColumns = IconColumns2
+	// IconCopyright is the former name of IconCircleLetterC.
+	//
+	// Deprecated: Lucide 1.74.0 renamed "copyright" to "circle-letter-c", use IconCircleLetterC. The alias is removed with Lucide 2.
+	IconCopyright = IconCircleLetterC
+	// IconCurlyBraces is the former name of IconBraces.
+	//
+	// Deprecated: Lucide 1.74.0 renamed "curly-braces" to "braces", use IconBraces. The alias is removed with Lucide 2.
+	IconCurlyBraces = IconBraces
+	// IconDivideCircle is the former name of IconCircleDivide.
+	//
+	// Deprecated: Lucide 1.74.0 renamed "divide-circle" to "circle-divide", use IconCircleDivide. The alias is removed with Lucide 2.
+	IconDivideCircle = IconCircleDivide
+	// IconDivideSquare is the former name of IconSquareDivide.
+	//
+	// Deprecated: Lucide 1.74.0 renamed "divide-square" to "square-divide", use IconSquareDivide. The alias is removed with Lucide 2.
+	IconDivideSquare = IconSquareDivide
+	// IconDownloadCloud is the former name of IconCloudDownload.
+	//
+	// Deprecated: Lucide 1.74.0 renamed "download-cloud" to "cloud-download", use IconCloudDownload. The alias is removed with Lucide 2.
+	IconDownloadCloud = IconCloudDownload
+	// IconEdit is the former name of IconSquarePen.
+	//
+	// Deprecated: Lucide 1.74.0 renamed "edit" to "square-pen", use IconSquarePen. The alias is removed with Lucide 2.
+	IconEdit = IconSquarePen
+	// IconEdit2 is the former name of IconPen.
+	//
+	// Deprecated: Lucide 1.74.0 renamed "edit-2" to "pen", use IconPen. The alias is removed with Lucide 2.
+	IconEdit2 = IconPen
+	// IconEdit3 is the former name of IconPenLine.
+	//
+	// Deprecated: Lucide 1.74.0 renamed "edit-3" to "pen-line", use IconPenLine. The alias is removed with Lucide 2.
+	IconEdit3 = IconPenLine
+	// IconFileAudio is the former name of IconFileHeadphone.
+	//
+	// Deprecated: Lucide 1.74.0 renamed "file-audio" to "file-headphone", use IconFileHeadphone. The alias is removed with Lucide 2.
+	IconFileAudio = IconFileHeadphone
+	// IconFileAudio2 is the former name of IconFileHeadphone.
+	//
+	// Deprecated: Lucide 1.74.0 renamed "file-audio-2" to "file-headphone", use IconFileHeadphone. The alias is removed with Lucide 2.
+	IconFileAudio2 = IconFileHeadphone
+	// IconFileBadge2 is the former name of IconFileBadge.
+	//
+	// Deprecated: Lucide 1.74.0 renamed "file-badge-2" to "file-badge", use IconFileBadge. The alias is removed with Lucide 2.
+	IconFileBadge2 = IconFileBadge
+	// IconFileBarChart is the former name of IconFileChartColumnIncreasing.
+	//
+	// Deprecated: Lucide 1.74.0 renamed "file-bar-chart" to "file-chart-column-increasing", use IconFileChartColumnIncreasing. The alias is removed with Lucide 2.
+	IconFileBarChart = IconFileChartColumnIncreasing
+	// IconFileBarChart2 is the former name of IconFileChartColumn.
+	//
+	// Deprecated: Lucide 1.74.0 renamed "file-bar-chart-2" to "file-chart-column", use IconFileChartColumn. The alias is removed with Lucide 2.
+	IconFileBarChart2 = IconFileChartColumn
+	// IconFileCheck2 is the former name of IconFileCheckCorner.
+	//
+	// Deprecated: Lucide 1.74.0 renamed "file-check-2" to "file-check-corner", use IconFileCheckCorner. The alias is removed with Lucide 2.
+	IconFileCheck2 = IconFileCheckCorner
+	// IconFileCog2 is the former name of IconFileCog.
+	//
+	// Deprecated: Lucide 1.74.0 renamed "file-cog-2" to "file-cog", use IconFileCog. The alias is removed with Lucide 2.
+	IconFileCog2 = IconFileCog
+	// IconFileEdit is the former name of IconFilePen.
+	//
+	// Deprecated: Lucide 1.74.0 renamed "file-edit" to "file-pen", use IconFilePen. The alias is removed with Lucide 2.
+	IconFileEdit = IconFilePen
+	// IconFileJson is the former name of IconFileBraces.
+	//
+	// Deprecated: Lucide 1.74.0 renamed "file-json" to "file-braces", use IconFileBraces. The alias is removed with Lucide 2.
+	IconFileJson = IconFileBraces
+	// IconFileJson2 is the former name of IconFileBracesCorner.
+	//
+	// Deprecated: Lucide 1.74.0 renamed "file-json-2" to "file-braces-corner", use IconFileBracesCorner. The alias is removed with Lucide 2.
+	IconFileJson2 = IconFileBracesCorner
+	// IconFileKey2 is the former name of IconFileKey.
+	//
+	// Deprecated: Lucide 1.74.0 renamed "file-key-2" to "file-key", use IconFileKey. The alias is removed with Lucide 2.
+	IconFileKey2 = IconFileKey
+	// IconFileLineChart is the former name of IconFileChartLine.
+	//
+	// Deprecated: Lucide 1.74.0 renamed "file-line-chart" to "file-chart-line", use IconFileChartLine. The alias is removed with Lucide 2.
+	IconFileLineChart = IconFileChartLine
+	// IconFileLock2 is the former name of IconFileLock.
+	//
+	// Deprecated: Lucide 1.74.0 renamed "file-lock-2" to "file-lock", use IconFileLock. The alias is removed with Lucide 2.
+	IconFileLock2 = IconFileLock
+	// IconFileMinus2 is the former name of IconFileMinusCorner.
+	//
+	// Deprecated: Lucide 1.74.0 renamed "file-minus-2" to "file-minus-corner", use IconFileMinusCorner. The alias is removed with Lucide 2.
+	IconFileMinus2 = IconFileMinusCorner
+	// IconFilePieChart is the former name of IconFileChartPie.
+	//
+	// Deprecated: Lucide 1.74.0 renamed "file-pie-chart" to "file-chart-pie", use IconFileChartPie. The alias is removed with Lucide 2.
+	IconFilePieChart = IconFileChartPie
+	// IconFilePlus2 is the former name of IconFilePlusCorner.
+	//
+	// Deprecated: Lucide 1.74.0 renamed "file-plus-2" to "file-plus-corner", use IconFilePlusCorner. The alias is removed with Lucide 2.
+	IconFilePlus2 = IconFilePlusCorner
+	// IconFileQuestion is the former name of IconFileQuestionMark.
+	//
+	// Deprecated: Lucide 1.74.0 renamed "file-question" to "file-question-mark", use IconFileQuestionMark. The alias is removed with Lucide 2.
+	IconFileQuestion = IconFileQuestionMark
+	// IconFileSearch2 is the former name of IconFileSearchCorner.
+	//
+	// Deprecated: Lucide 1.74.0 renamed "file-search-2" to "file-search-corner", use IconFileSearchCorner. The alias is removed with Lucide 2.
+	IconFileSearch2 = IconFileSearchCorner
+	// IconFileSignature is the former name of IconFilePenLine.
+	//
+	// Deprecated: Lucide 1.74.0 renamed "file-signature" to "file-pen-line", use IconFilePenLine. The alias is removed with Lucide 2.
+	IconFileSignature = IconFilePenLine
+	// IconFileType2 is the former name of IconFileTypeCorner.
+	//
+	// Deprecated: Lucide 1.74.0 renamed "file-type-2" to "file-type-corner", use IconFileTypeCorner. The alias is removed with Lucide 2.
+	IconFileType2 = IconFileTypeCorner
+	// IconFileVideo is the former name of IconFilePlay.
+	//
+	// Deprecated: Lucide 1.74.0 renamed "file-video" to "file-play", use IconFilePlay. The alias is removed with Lucide 2.
+	IconFileVideo = IconFilePlay
+	// IconFileVideo2 is the former name of IconFileVideoCamera.
+	//
+	// Deprecated: Lucide 1.74.0 renamed "file-video-2" to "file-video-camera", use IconFileVideoCamera. The alias is removed with Lucide 2.
+	IconFileVideo2 = IconFileVideoCamera
+	// IconFileVolume2 is the former name of IconFileSignal.
+	//
+	// Deprecated: Lucide 1.74.0 renamed "file-volume-2" to "file-signal", use IconFileSignal. The alias is removed with Lucide 2.
+	IconFileVolume2 = IconFileSignal
+	// IconFileWarning is the former name of IconFileExclamationPoint.
+	//
+	// Deprecated: Lucide 1.74.0 renamed "file-warning" to "file-exclamation-point", use IconFileExclamationPoint. The alias is removed with Lucide 2.
+	IconFileWarning = IconFileExclamationPoint
+	// IconFileX2 is the former name of IconFileXCorner.
+	//
+	// Deprecated: Lucide 1.74.0 renamed "file-x-2" to "file-x-corner", use IconFileXCorner. The alias is removed with Lucide 2.
+	IconFileX2 = IconFileXCorner
+	// IconFilter is the former name of IconFunnel.
+	//
+	// Deprecated: Lucide 1.74.0 renamed "filter" to "funnel", use IconFunnel. The alias is removed with Lucide 2.
+	IconFilter = IconFunnel
+	// IconFingerprint is the former name of IconFingerprintPattern.
+	//
+	// Deprecated: Lucide 1.74.0 renamed "fingerprint" to "fingerprint-pattern", use IconFingerprintPattern. The alias is removed with Lucide 2.
+	IconFingerprint = IconFingerprintPattern
+	// IconFlipHorizontal is the former name of IconSquareAxisDashedVertical.
+	//
+	// Deprecated: Lucide 1.74.0 renamed "flip-horizontal" to "square-axis-dashed-vertical", use IconSquareAxisDashedVertical. The alias is removed with Lucide 2.
+	IconFlipHorizontal = IconSquareAxisDashedVertical
+	// IconFlipHorizontal2 is the former name of IconCaretsToAxisDashedHorizontal.
+	//
+	// Deprecated: Lucide 1.74.0 renamed "flip-horizontal-2" to "carets-to-axis-dashed-horizontal", use IconCaretsToAxisDashedHorizontal. The alias is removed with Lucide 2.
+	IconFlipHorizontal2 = IconCaretsToAxisDashedHorizontal
+	// IconFlipVertical is the former name of IconSquareAxisDashedHorizontal.
+	//
+	// Deprecated: Lucide 1.74.0 renamed "flip-vertical" to "square-axis-dashed-horizontal", use IconSquareAxisDashedHorizontal. The alias is removed with Lucide 2.
+	IconFlipVertical = IconSquareAxisDashedHorizontal
+	// IconFlipVertical2 is the former name of IconCaretsToAxisDashedVertical.
+	//
+	// Deprecated: Lucide 1.74.0 renamed "flip-vertical-2" to "carets-to-axis-dashed-vertical", use IconCaretsToAxisDashedVertical. The alias is removed with Lucide 2.
+	IconFlipVertical2 = IconCaretsToAxisDashedVertical
+	// IconFolderCog2 is the former name of IconFolderCog.
+	//
+	// Deprecated: Lucide 1.74.0 renamed "folder-cog-2" to "folder-cog", use IconFolderCog. The alias is removed with Lucide 2.
+	IconFolderCog2 = IconFolderCog
+	// IconFolderEdit is the former name of IconFolderPen.
+	//
+	// Deprecated: Lucide 1.74.0 renamed "folder-edit" to "folder-pen", use IconFolderPen. The alias is removed with Lucide 2.
+	IconFolderEdit = IconFolderPen
+	// IconFormInput is the former name of IconRectangleEllipsis.
+	//
+	// Deprecated: Lucide 1.74.0 renamed "form-input" to "rectangle-ellipsis", use IconRectangleEllipsis. The alias is removed with Lucide 2.
+	IconFormInput = IconRectangleEllipsis
+	// IconFrown is the former name of IconFaceSlightlyFrowning.
+	//
+	// Deprecated: Lucide 1.74.0 renamed "frown" to "face-slightly-frowning", use IconFaceSlightlyFrowning. The alias is removed with Lucide 2.
+	IconFrown = IconFaceSlightlyFrowning
+	// IconFunctionSquare is the former name of IconSquareFunction.
+	//
+	// Deprecated: Lucide 1.74.0 renamed "function-square" to "square-function", use IconSquareFunction. The alias is removed with Lucide 2.
+	IconFunctionSquare = IconSquareFunction
+	// IconGitCommit is the former name of IconGitCommitHorizontal.
+	//
+	// Deprecated: Lucide 1.74.0 renamed "git-commit" to "git-commit-horizontal", use IconGitCommitHorizontal. The alias is removed with Lucide 2.
+	IconGitCommit = IconGitCommitHorizontal
+	// IconGlobe2 is the former name of IconEarth.
+	//
+	// Deprecated: Lucide 1.74.0 renamed "globe-2" to "earth", use IconEarth. The alias is removed with Lucide 2.
+	IconGlobe2 = IconEarth
+	// IconGrab is the former name of IconHandGrab.
+	//
+	// Deprecated: Lucide 1.74.0 renamed "grab" to "hand-grab", use IconHandGrab. The alias is removed with Lucide 2.
+	IconGrab = IconHandGrab
+	// IconGrid is the former name of IconGrid3x3.
+	//
+	// Deprecated: Lucide 1.74.0 renamed "grid" to "grid-3x3", use IconGrid3x3. The alias is removed with Lucide 2.
+	IconGrid = IconGrid3x3
+	// IconHeading is the former name of IconLetterH.
+	//
+	// Deprecated: Lucide 1.74.0 renamed "heading" to "letter-h", use IconLetterH. The alias is removed with Lucide 2.
+	IconHeading = IconLetterH
+	// IconHelpCircle is the former name of IconCircleQuestionMark.
+	//
+	// Deprecated: Lucide 1.74.0 renamed "help-circle" to "circle-question-mark", use IconCircleQuestionMark. The alias is removed with Lucide 2.
+	IconHelpCircle = IconCircleQuestionMark
+	// IconHistory is the former name of IconRotateCcwClock.
+	//
+	// Deprecated: Lucide 1.74.0 renamed "history" to "rotate-ccw-clock", use IconRotateCcwClock. The alias is removed with Lucide 2.
+	IconHistory = IconRotateCcwClock
+	// IconHome is the former name of IconHouse.
+	//
+	// Deprecated: Lucide 1.74.0 renamed "home" to "house", use IconHouse. The alias is removed with Lucide 2.
+	IconHome = IconHouse
+	// IconIceCream is the former name of IconIceCreamCone.
+	//
+	// Deprecated: Lucide 1.74.0 renamed "ice-cream" to "ice-cream-cone", use IconIceCreamCone. The alias is removed with Lucide 2.
+	IconIceCream = IconIceCreamCone
+	// IconIndent is the former name of IconListIndentIncrease.
+	//
+	// Deprecated: Lucide 1.74.0 renamed "indent" to "list-indent-increase", use IconListIndentIncrease. The alias is removed with Lucide 2.
+	IconIndent = IconListIndentIncrease
+	// IconInspect is the former name of IconSquareMousePointer.
+	//
+	// Deprecated: Lucide 1.74.0 renamed "inspect" to "square-mouse-pointer", use IconSquareMousePointer. The alias is removed with Lucide 2.
+	IconInspect = IconSquareMousePointer
+	// IconLaptop2 is the former name of IconLaptopMinimal.
+	//
+	// Deprecated: Lucide 1.74.0 renamed "laptop-2" to "laptop-minimal", use IconLaptopMinimal. The alias is removed with Lucide 2.
+	IconLaptop2 = IconLaptopMinimal
+	// IconLaugh is the former name of IconFaceGrinning.
+	//
+	// Deprecated: Lucide 1.74.0 renamed "laugh" to "face-grinning", use IconFaceGrinning. The alias is removed with Lucide 2.
+	IconLaugh = IconFaceGrinning
+	// IconLayout is the former name of IconPanelsTopLeft.
+	//
+	// Deprecated: Lucide 1.74.0 renamed "layout" to "panels-top-left", use IconPanelsTopLeft. The alias is removed with Lucide 2.
+	IconLayout = IconPanelsTopLeft
+	// IconLineChart is the former name of IconChartLine.
+	//
+	// Deprecated: Lucide 1.74.0 renamed "line-chart" to "chart-line", use IconChartLine. The alias is removed with Lucide 2.
+	IconLineChart = IconChartLine
+	// IconLoader2 is the former name of IconLoaderCircle.
+	//
+	// Deprecated: Lucide 1.74.0 renamed "loader-2" to "loader-circle", use IconLoaderCircle. The alias is removed with Lucide 2.
+	IconLoader2 = IconLoaderCircle
+	// IconMailQuestion is the former name of IconMailQuestionMark.
+	//
+	// Deprecated: Lucide 1.74.0 renamed "mail-question" to "mail-question-mark", use IconMailQuestionMark. The alias is removed with Lucide 2.
+	IconMailQuestion = IconMailQuestionMark
+	// IconMailWarning is the former name of IconMailExclamationPoint.
+	//
+	// Deprecated: Lucide 1.74.0 renamed "mail-warning" to "mail-exclamation-point", use IconMailExclamationPoint. The alias is removed with Lucide 2.
+	IconMailWarning = IconMailExclamationPoint
+	// IconMeh is the former name of IconFaceNeutral.
+	//
+	// Deprecated: Lucide 1.74.0 renamed "meh" to "face-neutral", use IconFaceNeutral. The alias is removed with Lucide 2.
+	IconMeh = IconFaceNeutral
+	// IconMic2 is the former name of IconMicVocal.
+	//
+	// Deprecated: Lucide 1.74.0 renamed "mic-2" to "mic-vocal", use IconMicVocal. The alias is removed with Lucide 2.
+	IconMic2 = IconMicVocal
+	// IconMinusCircle is the former name of IconCircleMinus.
+	//
+	// Deprecated: Lucide 1.74.0 renamed "minus-circle" to "circle-minus", use IconCircleMinus. The alias is removed with Lucide 2.
+	IconMinusCircle = IconCircleMinus
+	// IconMinusSquare is the former name of IconSquareMinus.
+	//
+	// Deprecated: Lucide 1.74.0 renamed "minus-square" to "square-minus", use IconSquareMinus. The alias is removed with Lucide 2.
+	IconMinusSquare = IconSquareMinus
+	// IconMoreHorizontal is the former name of IconEllipsis.
+	//
+	// Deprecated: Lucide 1.74.0 renamed "more-horizontal" to "ellipsis", use IconEllipsis. The alias is removed with Lucide 2.
+	IconMoreHorizontal = IconEllipsis
+	// IconMoreVertical is the former name of IconEllipsisVertical.
+	//
+	// Deprecated: Lucide 1.74.0 renamed "more-vertical" to "ellipsis-vertical", use IconEllipsisVertical. The alias is removed with Lucide 2.
+	IconMoreVertical = IconEllipsisVertical
+	// IconMusic is the former name of IconEighthNotes.
+	//
+	// Deprecated: Lucide 1.74.0 renamed "music" to "eighth-notes", use IconEighthNotes. The alias is removed with Lucide 2.
+	IconMusic = IconEighthNotes
+	// IconMusic2 is the former name of IconEighthNote.
+	//
+	// Deprecated: Lucide 1.74.0 renamed "music-2" to "eighth-note", use IconEighthNote. The alias is removed with Lucide 2.
+	IconMusic2 = IconEighthNote
+	// IconMusic3 is the former name of IconHalfNote.
+	//
+	// Deprecated: Lucide 1.74.0 renamed "music-3" to "half-note", use IconHalfNote. The alias is removed with Lucide 2.
+	IconMusic3 = IconHalfNote
+	// IconMusic4 is the former name of IconSixteenthNotes.
+	//
+	// Deprecated: Lucide 1.74.0 renamed "music-4" to "sixteenth-notes", use IconSixteenthNotes. The alias is removed with Lucide 2.
+	IconMusic4 = IconSixteenthNotes
+	// IconOutdent is the former name of IconListIndentDecrease.
+	//
+	// Deprecated: Lucide 1.74.0 renamed "outdent" to "list-indent-decrease", use IconListIndentDecrease. The alias is removed with Lucide 2.
+	IconOutdent = IconListIndentDecrease
+	// IconPaintbrush2 is the former name of IconPaintbrushVertical.
+	//
+	// Deprecated: Lucide 1.74.0 renamed "paintbrush-2" to "paintbrush-vertical", use IconPaintbrushVertical. The alias is removed with Lucide 2.
+	IconPaintbrush2 = IconPaintbrushVertical
+	// IconPalmtree is the former name of IconTreePalm.
+	//
+	// Deprecated: Lucide 1.74.0 renamed "palmtree" to "tree-palm", use IconTreePalm. The alias is removed with Lucide 2.
+	IconPalmtree = IconTreePalm
+	// IconPauseCircle is the former name of IconCirclePause.
+	//
+	// Deprecated: Lucide 1.74.0 renamed "pause-circle" to "circle-pause", use IconCirclePause. The alias is removed with Lucide 2.
+	IconPauseCircle = IconCirclePause
+	// IconPauseOctagon is the former name of IconOctagonPause.
+	//
+	// Deprecated: Lucide 1.74.0 renamed "pause-octagon" to "octagon-pause", use IconOctagonPause. The alias is removed with Lucide 2.
+	IconPauseOctagon = IconOctagonPause
+	// IconPieChart is the former name of IconChartPie.
+	//
+	// Deprecated: Lucide 1.74.0 renamed "pie-chart" to "chart-pie", use IconChartPie. The alias is removed with Lucide 2.
+	IconPieChart = IconChartPie
+	// IconPlayCircle is the former name of IconCirclePlay.
+	//
+	// Deprecated: Lucide 1.74.0 renamed "play-circle" to "circle-play", use IconCirclePlay. The alias is removed with Lucide 2.
+	IconPlayCircle = IconCirclePlay
+	// IconPlusCircle is the former name of IconCirclePlus.
+	//
+	// Deprecated: Lucide 1.74.0 renamed "plus-circle" to "circle-plus", use IconCirclePlus. The alias is removed with Lucide 2.
+	IconPlusCircle = IconCirclePlus
+	// IconPlusSquare is the former name of IconSquarePlus.
+	//
+	// Deprecated: Lucide 1.74.0 renamed "plus-square" to "square-plus", use IconSquarePlus. The alias is removed with Lucide 2.
+	IconPlusSquare = IconSquarePlus
+	// IconPodcast is the former name of IconMicSignal.
+	//
+	// Deprecated: Lucide 1.74.0 renamed "podcast" to "mic-signal", use IconMicSignal. The alias is removed with Lucide 2.
+	IconPodcast = IconMicSignal
+	// IconShieldAlert is the former name of IconShieldExclamationPoint.
+	//
+	// Deprecated: Lucide 1.74.0 renamed "shield-alert" to "shield-exclamation-point", use IconShieldExclamationPoint. The alias is removed with Lucide 2.
+	IconShieldAlert = IconShieldExclamationPoint
+	// IconShieldClose is the former name of IconShieldX.
+	//
+	// Deprecated: Lucide 1.74.0 renamed "shield-close" to "shield-x", use IconShieldX. The alias is removed with Lucide 2.
+	IconShieldClose = IconShieldX
+	// IconSidebar is the former name of IconPanelLeft.
+	//
+	// Deprecated: Lucide 1.74.0 renamed "sidebar" to "panel-left", use IconPanelLeft. The alias is removed with Lucide 2.
+	IconSidebar = IconPanelLeft
+	// IconSidebarClose is the former name of IconPanelLeftClose.
+	//
+	// Deprecated: Lucide 1.74.0 renamed "sidebar-close" to "panel-left-close", use IconPanelLeftClose. The alias is removed with Lucide 2.
+	IconSidebarClose = IconPanelLeftClose
+	// IconSidebarOpen is the former name of IconPanelLeftOpen.
+	//
+	// Deprecated: Lucide 1.74.0 renamed "sidebar-open" to "panel-left-open", use IconPanelLeftOpen. The alias is removed with Lucide 2.
+	IconSidebarOpen = IconPanelLeftOpen
+	// IconSliders is the former name of IconSlidersVertical.
+	//
+	// Deprecated: Lucide 1.74.0 renamed "sliders" to "sliders-vertical", use IconSlidersVertical. The alias is removed with Lucide 2.
+	IconSliders = IconSlidersVertical
+	// IconSmile is the former name of IconFaceSlightlySmiling.
+	//
+	// Deprecated: Lucide 1.74.0 renamed "smile" to "face-slightly-smiling", use IconFaceSlightlySmiling. The alias is removed with Lucide 2.
+	IconSmile = IconFaceSlightlySmiling
+	// IconSmilePlus is the former name of IconFaceSlightlySmilingPlus.
+	//
+	// Deprecated: Lucide 1.74.0 renamed "smile-plus" to "face-slightly-smiling-plus", use IconFaceSlightlySmilingPlus. The alias is removed with Lucide 2.
+	IconSmilePlus = IconFaceSlightlySmilingPlus
+	// IconSortAsc is the former name of IconArrowUpNarrowWide.
+	//
+	// Deprecated: Lucide 1.74.0 renamed "sort-asc" to "arrow-up-narrow-wide", use IconArrowUpNarrowWide. The alias is removed with Lucide 2.
+	IconSortAsc = IconArrowUpNarrowWide
+	// IconSortDesc is the former name of IconArrowDownWideNarrow.
+	//
+	// Deprecated: Lucide 1.74.0 renamed "sort-desc" to "arrow-down-wide-narrow", use IconArrowDownWideNarrow. The alias is removed with Lucide 2.
+	IconSortDesc = IconArrowDownWideNarrow
+	// IconStopCircle is the former name of IconCircleStop.
+	//
+	// Deprecated: Lucide 1.74.0 renamed "stop-circle" to "circle-stop", use IconCircleStop. The alias is removed with Lucide 2.
+	IconStopCircle = IconCircleStop
+	// IconTerminalSquare is the former name of IconSquareTerminal.
+	//
+	// Deprecated: Lucide 1.74.0 renamed "terminal-square" to "square-terminal", use IconSquareTerminal. The alias is removed with Lucide 2.
+	IconTerminalSquare = IconSquareTerminal
+	// IconTrain is the former name of IconTramFront.
+	//
+	// Deprecated: Lucide 1.74.0 renamed "train" to "tram-front", use IconTramFront. The alias is removed with Lucide 2.
+	IconTrain = IconTramFront
+	// IconTrash2 is the former name of IconTrash.
+	//
+	// Deprecated: Lucide 1.74.0 renamed "trash-2" to "trash", use IconTrash. The alias is removed with Lucide 2.
+	IconTrash2 = IconTrash
+	// IconTv2 is the former name of IconTvMinimal.
+	//
+	// Deprecated: Lucide 1.74.0 renamed "tv-2" to "tv-minimal", use IconTvMinimal. The alias is removed with Lucide 2.
+	IconTv2 = IconTvMinimal
+	// IconUnlock is the former name of IconLockOpen.
+	//
+	// Deprecated: Lucide 1.74.0 renamed "unlock" to "lock-open", use IconLockOpen. The alias is removed with Lucide 2.
+	IconUnlock = IconLockOpen
+	// IconUploadCloud is the former name of IconCloudUpload.
+	//
+	// Deprecated: Lucide 1.74.0 renamed "upload-cloud" to "cloud-upload", use IconCloudUpload. The alias is removed with Lucide 2.
+	IconUploadCloud = IconCloudUpload
+	// IconVerified is the former name of IconBadgeCheck.
+	//
+	// Deprecated: Lucide 1.74.0 renamed "verified" to "badge-check", use IconBadgeCheck. The alias is removed with Lucide 2.
+	IconVerified = IconBadgeCheck
+	// IconWand2 is the former name of IconWandSparkles.
+	//
+	// Deprecated: Lucide 1.74.0 renamed "wand-2" to "wand-sparkles", use IconWandSparkles. The alias is removed with Lucide 2.
+	IconWand2 = IconWandSparkles
+	// IconWaves is the former name of IconWavesHorizontal.
+	//
+	// Deprecated: Lucide 1.74.0 renamed "waves" to "waves-horizontal", use IconWavesHorizontal. The alias is removed with Lucide 2.
+	IconWaves = IconWavesHorizontal
+	// IconWrapText is the former name of IconTextWrap.
+	//
+	// Deprecated: Lucide 1.74.0 renamed "wrap-text" to "text-wrap", use IconTextWrap. The alias is removed with Lucide 2.
+	IconWrapText = IconTextWrap
+	// IconXCircle is the former name of IconCircleX.
+	//
+	// Deprecated: Lucide 1.74.0 renamed "x-circle" to "circle-x", use IconCircleX. The alias is removed with Lucide 2.
+	IconXCircle = IconCircleX
+	// IconXOctagon is the former name of IconOctagonX.
+	//
+	// Deprecated: Lucide 1.74.0 renamed "x-octagon" to "octagon-x", use IconOctagonX. The alias is removed with Lucide 2.
+	IconXOctagon = IconOctagonX
+	// IconXSquare is the former name of IconSquareX.
+	//
+	// Deprecated: Lucide 1.74.0 renamed "x-square" to "square-x", use IconSquareX. The alias is removed with Lucide 2.
+	IconXSquare = IconSquareX
+)
 
 // aliases maps deprecated icon names to their current names.
-var aliases = map[string]string{}
+var aliases = map[string]string{
+	"alarm-check":          "alarm-clock-check",
+	"alarm-minus":          "alarm-clock-minus",
+	"alarm-plus":           "alarm-clock-plus",
+	"album":                "square-bookmark",
+	"alert-circle":         "circle-exclamation-point",
+	"alert-octagon":        "octagon-exclamation-point",
+	"alert-triangle":       "triangle-exclamation-point",
+	"align-center":         "text-align-center",
+	"align-justify":        "text-align-justify",
+	"align-left":           "text-align-start",
+	"align-right":          "text-align-end",
+	"angry":                "face-angry",
+	"annoyed":              "face-expressionless",
+	"archive-restore":      "archive-arrow-up",
+	"arrow-down-circle":    "circle-arrow-down",
+	"arrow-left-circle":    "circle-arrow-left",
+	"arrow-right-circle":   "circle-arrow-right",
+	"arrow-up-circle":      "circle-arrow-up",
+	"bar-chart":            "chart-no-axes-column-increasing",
+	"bar-chart-2":          "chart-no-axes-column",
+	"bar-chart-3":          "chart-column",
+	"bar-chart-4":          "chart-column-increasing",
+	"bar-chart-horizontal": "chart-bar",
+	"bold":                 "letter-b",
+	"box-select":           "square-dashed",
+	"building-2":           "building-complex",
+	"check-circle":         "circle-check-big",
+	"check-circle-2":       "circle-check",
+	"check-square":         "square-check-big",
+	"circle-slashed":       "circle-slash-2",
+	"clipboard-edit":       "clipboard-pen",
+	"clipboard-signature":  "clipboard-pen-line",
+	"code-2":               "code-xml",
+	"columns":              "columns-2",
+	"copyright":            "circle-letter-c",
+	"curly-braces":         "braces",
+	"divide-circle":        "circle-divide",
+	"divide-square":        "square-divide",
+	"download-cloud":       "cloud-download",
+	"edit":                 "square-pen",
+	"edit-2":               "pen",
+	"edit-3":               "pen-line",
+	"file-audio":           "file-headphone",
+	"file-audio-2":         "file-headphone",
+	"file-badge-2":         "file-badge",
+	"file-bar-chart":       "file-chart-column-increasing",
+	"file-bar-chart-2":     "file-chart-column",
+	"file-check-2":         "file-check-corner",
+	"file-cog-2":           "file-cog",
+	"file-edit":            "file-pen",
+	"file-json":            "file-braces",
+	"file-json-2":          "file-braces-corner",
+	"file-key-2":           "file-key",
+	"file-line-chart":      "file-chart-line",
+	"file-lock-2":          "file-lock",
+	"file-minus-2":         "file-minus-corner",
+	"file-pie-chart":       "file-chart-pie",
+	"file-plus-2":          "file-plus-corner",
+	"file-question":        "file-question-mark",
+	"file-search-2":        "file-search-corner",
+	"file-signature":       "file-pen-line",
+	"file-type-2":          "file-type-corner",
+	"file-video":           "file-play",
+	"file-video-2":         "file-video-camera",
+	"file-volume-2":        "file-signal",
+	"file-warning":         "file-exclamation-point",
+	"file-x-2":             "file-x-corner",
+	"filter":               "funnel",
+	"fingerprint":          "fingerprint-pattern",
+	"flip-horizontal":      "square-axis-dashed-vertical",
+	"flip-horizontal-2":    "carets-to-axis-dashed-horizontal",
+	"flip-vertical":        "square-axis-dashed-horizontal",
+	"flip-vertical-2":      "carets-to-axis-dashed-vertical",
+	"folder-cog-2":         "folder-cog",
+	"folder-edit":          "folder-pen",
+	"form-input":           "rectangle-ellipsis",
+	"frown":                "face-slightly-frowning",
+	"function-square":      "square-function",
+	"git-commit":           "git-commit-horizontal",
+	"globe-2":              "earth",
+	"grab":                 "hand-grab",
+	"grid":                 "grid-3x3",
+	"heading":              "letter-h",
+	"help-circle":          "circle-question-mark",
+	"history":              "rotate-ccw-clock",
+	"home":                 "house",
+	"ice-cream":            "ice-cream-cone",
+	"indent":               "list-indent-increase",
+	"inspect":              "square-mouse-pointer",
+	"laptop-2":             "laptop-minimal",
+	"laugh":                "face-grinning",
+	"layout":               "panels-top-left",
+	"line-chart":           "chart-line",
+	"loader-2":             "loader-circle",
+	"mail-question":        "mail-question-mark",
+	"mail-warning":         "mail-exclamation-point",
+	"meh":                  "face-neutral",
+	"mic-2":                "mic-vocal",
+	"minus-circle":         "circle-minus",
+	"minus-square":         "square-minus",
+	"more-horizontal":      "ellipsis",
+	"more-vertical":        "ellipsis-vertical",
+	"music":                "eighth-notes",
+	"music-2":              "eighth-note",
+	"music-3":              "half-note",
+	"music-4":              "sixteenth-notes",
+	"outdent":              "list-indent-decrease",
+	"paintbrush-2":         "paintbrush-vertical",
+	"palmtree":             "tree-palm",
+	"pause-circle":         "circle-pause",
+	"pause-octagon":        "octagon-pause",
+	"pie-chart":            "chart-pie",
+	"play-circle":          "circle-play",
+	"plus-circle":          "circle-plus",
+	"plus-square":          "square-plus",
+	"podcast":              "mic-signal",
+	"shield-alert":         "shield-exclamation-point",
+	"shield-close":         "shield-x",
+	"sidebar":              "panel-left",
+	"sidebar-close":        "panel-left-close",
+	"sidebar-open":         "panel-left-open",
+	"sliders":              "sliders-vertical",
+	"smile":                "face-slightly-smiling",
+	"smile-plus":           "face-slightly-smiling-plus",
+	"sort-asc":             "arrow-up-narrow-wide",
+	"sort-desc":            "arrow-down-wide-narrow",
+	"stop-circle":          "circle-stop",
+	"terminal-square":      "square-terminal",
+	"train":                "tram-front",
+	"trash-2":              "trash",
+	"tv-2":                 "tv-minimal",
+	"unlock":               "lock-open",
+	"upload-cloud":         "cloud-upload",
+	"verified":             "badge-check",
+	"wand-2":               "wand-sparkles",
+	"waves":                "waves-horizontal",
+	"wrap-text":            "text-wrap",
+	"x-circle":             "circle-x",
+	"x-octagon":            "octagon-x",
+	"x-square":             "square-x",
+}
