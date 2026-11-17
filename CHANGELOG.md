@@ -36,7 +36,7 @@ The old names stay available as deprecated aliases until Lucide 2; `Lookup` reso
 | `bar-chart-3` | `chart-column` | `IconBarChart3` → `IconChartColumn` | Lucide aliases |
 | `bar-chart-4` | `chart-column-increasing` | `IconBarChart4` → `IconChartColumnIncreasing` | Lucide aliases |
 | `bar-chart-horizontal` | `chart-bar` | `IconBarChartHorizontal` → `IconChartBar` | Lucide aliases |
-| `bold` | `letter-b` ⚠️ | `IconBold` → `IconLetterB` | Lucide aliases |
+| `bold` | `letter-b` | `IconBold` → `IconLetterB` | Lucide aliases |
 | `box-select` | `square-dashed` | `IconBoxSelect` → `IconSquareDashed` | Lucide aliases |
 | `building-2` | `building-complex` ⚠️ | `IconBuilding2` → `IconBuildingComplex` | Lucide aliases |
 | `check-circle` | `circle-check-big` | `IconCheckCircle` → `IconCircleCheckBig` | Lucide aliases |
@@ -71,7 +71,7 @@ The old names stay available as deprecated aliases until Lucide 2; `Lookup` reso
 | `file-minus-2` | `file-minus-corner` ⚠️ | `IconFileMinus2` → `IconFileMinusCorner` | Lucide aliases |
 | `file-pie-chart` | `file-chart-pie` | `IconFilePieChart` → `IconFileChartPie` | Lucide aliases |
 | `file-plus-2` | `file-plus-corner` ⚠️ | `IconFilePlus2` → `IconFilePlusCorner` | Lucide aliases |
-| `file-question` | `file-question-mark` | `IconFileQuestion` → `IconFileQuestionMark` | Lucide aliases |
+| `file-question` | `file-question-mark` ⚠️ | `IconFileQuestion` → `IconFileQuestionMark` | Lucide aliases |
 | `file-search-2` | `file-search-corner` ⚠️ | `IconFileSearch2` → `IconFileSearchCorner` | Lucide aliases |
 | `file-signature` | `file-pen-line` | `IconFileSignature` → `IconFilePenLine` | Lucide aliases |
 | `file-type-2` | `file-type-corner` ⚠️ | `IconFileType2` → `IconFileTypeCorner` | Lucide aliases |
@@ -92,12 +92,12 @@ The old names stay available as deprecated aliases until Lucide 2; `Lookup` reso
 | `frown` | `face-slightly-frowning` | `IconFrown` → `IconFaceSlightlyFrowning` | Lucide aliases |
 | `function-square` | `square-function` | `IconFunctionSquare` → `IconSquareFunction` | Lucide aliases |
 | `git-commit` | `git-commit-horizontal` | `IconGitCommit` → `IconGitCommitHorizontal` | Lucide aliases |
-| `globe-2` | `earth` ⚠️ | `IconGlobe2` → `IconEarth` | Lucide aliases |
+| `globe-2` | `earth` | `IconGlobe2` → `IconEarth` | Lucide aliases |
 | `grab` | `hand-grab` | `IconGrab` → `IconHandGrab` | Lucide aliases |
 | `grid` | `grid-3x3` | `IconGrid` → `IconGrid3x3` | Lucide aliases |
 | `heading` | `letter-h` | `IconHeading` → `IconLetterH` | Lucide aliases |
 | `help-circle` | `circle-question-mark` | `IconHelpCircle` → `IconCircleQuestionMark` | Lucide aliases |
-| `history` | `rotate-ccw-clock` ⚠️ | `IconHistory` → `IconRotateCcwClock` | Lucide aliases |
+| `history` | `rotate-ccw-clock` | `IconHistory` → `IconRotateCcwClock` | Lucide aliases |
 | `home` | `house` ⚠️ | `IconHome` → `IconHouse` | Lucide aliases |
 | `ice-cream` | `ice-cream-cone` | `IconIceCream` → `IconIceCreamCone` | Lucide aliases |
 | `indent` | `list-indent-increase` ⚠️ | `IconIndent` → `IconListIndentIncrease` | Lucide aliases |
@@ -135,8 +135,8 @@ The old names stay available as deprecated aliases until Lucide 2; `Lookup` reso
 | `sidebar-close` | `panel-left-close` | `IconSidebarClose` → `IconPanelLeftClose` | Lucide aliases |
 | `sidebar-open` | `panel-left-open` | `IconSidebarOpen` → `IconPanelLeftOpen` | Lucide aliases |
 | `sliders` | `sliders-vertical` ⚠️ | `IconSliders` → `IconSlidersVertical` | Lucide aliases |
-| `smile` | `face-slightly-smiling` | `IconSmile` → `IconFaceSlightlySmiling` | Lucide aliases |
-| `smile-plus` | `face-slightly-smiling-plus` | `IconSmilePlus` → `IconFaceSlightlySmilingPlus` | Lucide aliases |
+| `smile` | `face-slightly-smiling` ⚠️ | `IconSmile` → `IconFaceSlightlySmiling` | Lucide aliases |
+| `smile-plus` | `face-slightly-smiling-plus` ⚠️ | `IconSmilePlus` → `IconFaceSlightlySmilingPlus` | Lucide aliases |
 | `sort-asc` | `arrow-up-narrow-wide` ⚠️ | `IconSortAsc` → `IconArrowUpNarrowWide` | Lucide aliases |
 | `sort-desc` | `arrow-down-wide-narrow` ⚠️ | `IconSortDesc` → `IconArrowDownWideNarrow` | Lucide aliases |
 | `stop-circle` | `circle-stop` | `IconStopCircle` → `IconCircleStop` | Lucide aliases |
@@ -1454,7 +1454,7 @@ No successor was found. If there is one, add it to `aliases` in `lucide.json` (s
 
 </details>
 
-### Changed shape (194)
+### Changed shape (180)
 
 <details>
 <summary>Show icons</summary>
@@ -1468,7 +1468,6 @@ No successor was found. If there is one, add it to `aliases` in `lucide.json` (s
 - `arrow-big-up` (`IconArrowBigUp`)
 - `arrow-left-right` (`IconArrowLeftRight`)
 - `arrow-up-down` (`IconArrowUpDown`)
-- `baby` (`IconBaby`)
 - `battery` (`IconBattery`)
 - `battery-charging` (`IconBatteryCharging`)
 - `battery-full` (`IconBatteryFull`)
@@ -1476,7 +1475,6 @@ No successor was found. If there is one, add it to `aliases` in `lucide.json` (s
 - `battery-medium` (`IconBatteryMedium`)
 - `bell-minus` (`IconBellMinus`)
 - `bell-plus` (`IconBellPlus`)
-- `bone` (`IconBone`)
 - `book-open` (`IconBookOpen`)
 - `book-open-check` (`IconBookOpenCheck`)
 - `bot` (`IconBot`)
@@ -1504,16 +1502,14 @@ No successor was found. If there is one, add it to `aliases` in `lucide.json` (s
 - `cloud-moon` (`IconCloudMoon`)
 - `cloud-moon-rain` (`IconCloudMoonRain`)
 - `coins` (`IconCoins`)
-- `command` (`IconCommand`)
 - `contact` (`IconContact`)
-- `cookie` (`IconCookie`)
 - `copy` (`IconCopy`)
 - `cpu` (`IconCpu`)
 - `croissant` (`IconCroissant`)
 - `crown` (`IconCrown`)
 - `disc` (`IconDisc`)
 - `drumstick` (`IconDrumstick`)
-- `eye` (`IconEye`)
+- `egg` (`IconEgg`)
 - `factory` (`IconFactory`)
 - `fast-forward` (`IconFastForward`)
 - `file-archive` (`IconFileArchive`)
@@ -1532,10 +1528,8 @@ No successor was found. If there is one, add it to `aliases` in `lucide.json` (s
 - `film` (`IconFilm`)
 - `flag-triangle-left` (`IconFlagTriangleLeft`)
 - `flag-triangle-right` (`IconFlagTriangleRight`)
-- `flame` (`IconFlame`)
 - `flask-conical` (`IconFlaskConical`)
 - `flask-round` (`IconFlaskRound`)
-- `flower` (`IconFlower`)
 - `folder-archive` (`IconFolderArchive`)
 - `folder-heart` (`IconFolderHeart`)
 - `folder-key` (`IconFolderKey`)
@@ -1546,7 +1540,7 @@ No successor was found. If there is one, add it to `aliases` in `lucide.json` (s
 - `gem` (`IconGem`)
 - `ghost` (`IconGhost`)
 - `gift` (`IconGift`)
-- `globe` (`IconGlobe`)
+- `git-branch` (`IconGitBranch`)
 - `graduation-cap` (`IconGraduationCap`)
 - `heart` (`IconHeart`)
 - `heart-crack` (`IconHeartCrack`)
@@ -1559,8 +1553,6 @@ No successor was found. If there is one, add it to `aliases` in `lucide.json` (s
 - `lamp-desk` (`IconLampDesk`)
 - `landmark` (`IconLandmark`)
 - `layers` (`IconLayers`)
-- `leaf` (`IconLeaf`)
-- `lightbulb` (`IconLightbulb`)
 - `list` (`IconList`)
 - `list-checks` (`IconListChecks`)
 - `list-end` (`IconListEnd`)
@@ -1573,7 +1565,6 @@ No successor was found. If there is one, add it to `aliases` in `lucide.json` (s
 - `list-x` (`IconListX`)
 - `magnet` (`IconMagnet`)
 - `mails` (`IconMails`)
-- `map-pin-off` (`IconMapPinOff`)
 - `martini` (`IconMartini`)
 - `megaphone` (`IconMegaphone`)
 - `megaphone-off` (`IconMegaphoneOff`)
@@ -1582,10 +1573,11 @@ No successor was found. If there is one, add it to `aliases` in `lucide.json` (s
 - `message-square` (`IconMessageSquare`)
 - `moon` (`IconMoon`)
 - `mouse` (`IconMouse`)
-- `mouse-pointer` (`IconMousePointer`)
 - `mouse-pointer-2` (`IconMousePointer2`)
+- `mouse-pointer-click` (`IconMousePointerClick`)
+- `package-search` (`IconPackageSearch`)
+- `package-x` (`IconPackageX`)
 - `paint-bucket` (`IconPaintBucket`)
-- `palette` (`IconPalette`)
 - `paperclip` (`IconPaperclip`)
 - `pause` (`IconPause`)
 - `pen-tool` (`IconPenTool`)
@@ -1597,23 +1589,17 @@ No successor was found. If there is one, add it to `aliases` in `lucide.json` (s
 - `phone-off` (`IconPhoneOff`)
 - `phone-outgoing` (`IconPhoneOutgoing`)
 - `piggy-bank` (`IconPiggyBank`)
-- `pin` (`IconPin`)
 - `pizza` (`IconPizza`)
 - `play` (`IconPlay`)
 - `plug-zap` (`IconPlugZap`)
 - `pound-sterling` (`IconPoundSterling`)
-- `puzzle` (`IconPuzzle`)
 - `quote` (`IconQuote`)
-- `refresh-ccw` (`IconRefreshCcw`)
-- `refresh-cw` (`IconRefreshCw`)
 - `rewind` (`IconRewind`)
 - `rocking-chair` (`IconRockingChair`)
-- `rotate-ccw` (`IconRotateCcw`)
 - `ruler` (`IconRuler`)
 - `russian-ruble` (`IconRussianRuble`)
 - `sailboat` (`IconSailboat`)
 - `send` (`IconSend`)
-- `settings` (`IconSettings`)
 - `shield` (`IconShield`)
 - `shield-check` (`IconShieldCheck`)
 - `shield-off` (`IconShieldOff`)
@@ -1639,13 +1625,13 @@ No successor was found. If there is one, add it to `aliases` in `lucide.json` (s
 - `ticket` (`IconTicket`)
 - `toggle-left` (`IconToggleLeft`)
 - `toggle-right` (`IconToggleRight`)
-- `tree-deciduous` (`IconTreeDeciduous`)
+- `trash` (`IconTrash`)
 - `trophy` (`IconTrophy`)
 - `truck` (`IconTruck`)
 - `umbrella` (`IconUmbrella`)
 - `user-cog` (`IconUserCog`)
+- `venetian-mask` (`IconVenetianMask`)
 - `video` (`IconVideo`)
-- `view` (`IconView`)
 - `volume` (`IconVolume`)
 - `volume-1` (`IconVolume1`)
 - `volume-2` (`IconVolume2`)

@@ -49,6 +49,12 @@ cannot fail. Since the type is unexported, store `fyne.Resource`s or names
 The default stain color is taken when the icon is requested; request the icon
 again (or call `MustStain`) after a theme change.
 
+`Icon` serves the strokes as filled outlines, so Fyne can recolor icons in
+disabled buttons and menu items, important buttons, selected tabs and
+`theme.NewThemedResource`/`NewColoredResource`/`NewDisabledResource`, and
+strokes scale with the icon size. `Source` and `StainedSource` return the
+original stroked SVG.
+
 `fyne_lucide.LucideVersion` holds the embedded Lucide release.
 
 Built on [fyne_iconkit](https://github.com/timzifer/fyne_iconkit).
