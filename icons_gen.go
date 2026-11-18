@@ -2,7 +2,7 @@
 
 package fyne_lucide
 
-// All 2089 icons of this package.
+// All 2091 icons of this package.
 var (
 	IconAArrowDown                       = icon{"a-arrow-down"}
 	IconAArrowUp                         = icon{"a-arrow-up"}
@@ -1007,6 +1007,7 @@ var (
 	IconIterationCcw                     = icon{"iteration-ccw"}
 	IconIterationCw                      = icon{"iteration-cw"}
 	IconIvBag                            = icon{"iv-bag"}
+	IconJacket                           = icon{"jacket"}
 	IconJapaneseYen                      = icon{"japanese-yen"}
 	IconJoystick                         = icon{"joystick"}
 	IconKanban                           = icon{"kanban"}
@@ -1338,6 +1339,7 @@ var (
 	IconPackageSearch                    = icon{"package-search"}
 	IconPackageX                         = icon{"package-x"}
 	IconPaintBucket                      = icon{"paint-bucket"}
+	IconPaintGun                         = icon{"paint-gun"}
 	IconPaintRoller                      = icon{"paint-roller"}
 	IconPaintbrush                       = icon{"paintbrush"}
 	IconPaintbrushVertical               = icon{"paintbrush-vertical"}
