@@ -1,5 +1,29 @@
 # Changelog
 
+## Lucide 1.76.0
+
+Updated from [1.74.0 to 1.76.0](https://github.com/lucide-icons/lucide/compare/1.74.0...1.76.0), 2092 icons in total.
+
+### Added (3)
+
+<details>
+<summary>Show icons</summary>
+
+- `diagram-sankey` (`IconDiagramSankey`)
+- `jacket` (`IconJacket`)
+- `paint-gun` (`IconPaintGun`)
+
+</details>
+
+### Changed shape (1)
+
+<details>
+<summary>Show icons</summary>
+
+- `spray-can` (`IconSprayCan`)
+
+</details>
+
 ## Lucide 1.74.0
 
 Updated from [0.93.0 to 1.74.0](https://github.com/lucide-icons/lucide/compare/v0.93.0...1.74.0), 2089 icons in total.
