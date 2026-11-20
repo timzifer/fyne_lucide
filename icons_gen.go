@@ -2,7 +2,7 @@
 
 package fyne_lucide
 
-// All 2089 icons of this package.
+// All 2098 icons of this package.
 var (
 	IconAArrowDown                       = icon{"a-arrow-down"}
 	IconAArrowUp                         = icon{"a-arrow-up"}
@@ -253,6 +253,7 @@ var (
 	IconBottleWine                       = icon{"bottle-wine"}
 	IconBowArrow                         = icon{"bow-arrow"}
 	IconBox                              = icon{"box"}
+	IconBoxDashed                        = icon{"box-dashed"}
 	IconBoxes                            = icon{"boxes"}
 	IconBoxesLinked                      = icon{"boxes-linked"}
 	IconBraces                           = icon{"braces"}
@@ -416,6 +417,7 @@ var (
 	IconChevronsToAxisVertical           = icon{"chevrons-to-axis-vertical"}
 	IconChevronsUp                       = icon{"chevrons-up"}
 	IconChevronsUpDown                   = icon{"chevrons-up-down"}
+	IconChocolateBar                     = icon{"chocolate-bar"}
 	IconChurch                           = icon{"church"}
 	IconCigarette                        = icon{"cigarette"}
 	IconCigaretteOff                     = icon{"cigarette-off"}
@@ -639,6 +641,7 @@ var (
 	IconDessert                          = icon{"dessert"}
 	IconDiagramFlowHorizontal            = icon{"diagram-flow-horizontal"}
 	IconDiagramFlowVertical              = icon{"diagram-flow-vertical"}
+	IconDiagramSankey                    = icon{"diagram-sankey"}
 	IconDiameter                         = icon{"diameter"}
 	IconDiamond                          = icon{"diamond"}
 	IconDiamondMinus                     = icon{"diamond-minus"}
@@ -827,11 +830,13 @@ var (
 	IconFolderKey                        = icon{"folder-key"}
 	IconFolderLock                       = icon{"folder-lock"}
 	IconFolderMinus                      = icon{"folder-minus"}
+	IconFolderNetwork                    = icon{"folder-network"}
 	IconFolderOpen                       = icon{"folder-open"}
 	IconFolderOpenDot                    = icon{"folder-open-dot"}
 	IconFolderOutput                     = icon{"folder-output"}
 	IconFolderPen                        = icon{"folder-pen"}
 	IconFolderPlus                       = icon{"folder-plus"}
+	IconFolderPlusCorner                 = icon{"folder-plus-corner"}
 	IconFolderRoot                       = icon{"folder-root"}
 	IconFolderSearch                     = icon{"folder-search"}
 	IconFolderSearch2                    = icon{"folder-search-2"}
@@ -1007,6 +1012,7 @@ var (
 	IconIterationCcw                     = icon{"iteration-ccw"}
 	IconIterationCw                      = icon{"iteration-cw"}
 	IconIvBag                            = icon{"iv-bag"}
+	IconJacket                           = icon{"jacket"}
 	IconJapaneseYen                      = icon{"japanese-yen"}
 	IconJoystick                         = icon{"joystick"}
 	IconKanban                           = icon{"kanban"}
@@ -1338,6 +1344,7 @@ var (
 	IconPackageSearch                    = icon{"package-search"}
 	IconPackageX                         = icon{"package-x"}
 	IconPaintBucket                      = icon{"paint-bucket"}
+	IconPaintGun                         = icon{"paint-gun"}
 	IconPaintRoller                      = icon{"paint-roller"}
 	IconPaintbrush                       = icon{"paintbrush"}
 	IconPaintbrushVertical               = icon{"paintbrush-vertical"}
@@ -1472,6 +1479,7 @@ var (
 	IconRectangleEllipsis                = icon{"rectangle-ellipsis"}
 	IconRectangleGoggles                 = icon{"rectangle-goggles"}
 	IconRectangleHorizontal              = icon{"rectangle-horizontal"}
+	IconRectangleLandscapePlay           = icon{"rectangle-landscape-play"}
 	IconRectangleVertical                = icon{"rectangle-vertical"}
 	IconRecycle                          = icon{"recycle"}
 	IconRedo                             = icon{"redo"}
@@ -1983,6 +1991,7 @@ var (
 	IconUserRound                        = icon{"user-round"}
 	IconUserRoundArrowLeft               = icon{"user-round-arrow-left"}
 	IconUserRoundCheck                   = icon{"user-round-check"}
+	IconUserRoundClock                   = icon{"user-round-clock"}
 	IconUserRoundCog                     = icon{"user-round-cog"}
 	IconUserRoundExclamationPoint        = icon{"user-round-exclamation-point"}
 	IconUserRoundGroup                   = icon{"user-round-group"}

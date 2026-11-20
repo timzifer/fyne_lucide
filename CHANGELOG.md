@@ -1,5 +1,40 @@
 # Changelog
 
+## Lucide 1.77.0
+
+Updated from [1.74.0 to 1.77.0](https://github.com/lucide-icons/lucide/compare/1.74.0...1.77.0), 2098 icons in total.
+
+### Added (9)
+
+<details>
+<summary>Show icons</summary>
+
+- `box-dashed` (`IconBoxDashed`)
+- `chocolate-bar` (`IconChocolateBar`)
+- `diagram-sankey` (`IconDiagramSankey`)
+- `folder-network` (`IconFolderNetwork`)
+- `folder-plus-corner` (`IconFolderPlusCorner`)
+- `jacket` (`IconJacket`)
+- `paint-gun` (`IconPaintGun`)
+- `rectangle-landscape-play` (`IconRectangleLandscapePlay`)
+- `user-round-clock` (`IconUserRoundClock`)
+
+</details>
+
+### Changed shape (6)
+
+<details>
+<summary>Show icons</summary>
+
+- `calendar-clock` (`IconCalendarClock`)
+- `clipboard-clock` (`IconClipboardClock`)
+- `file-clock` (`IconFileClock`)
+- `folder-clock` (`IconFolderClock`)
+- `mail-clock` (`IconMailClock`)
+- `spray-can` (`IconSprayCan`)
+
+</details>
+
 ## Lucide 1.74.0
 
 Updated from [0.93.0 to 1.74.0](https://github.com/lucide-icons/lucide/compare/v0.93.0...1.74.0), 2089 icons in total.
