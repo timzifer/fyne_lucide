@@ -3,7 +3,7 @@
 package fyne_lucide
 
 // LucideVersion is the release of Lucide embedded in this package.
-const LucideVersion = "1.74.0"
+const LucideVersion = "1.77.0"
 
 // Deprecated aliases of 140 renamed icons. Like upstream, each alias is kept
 // until the next major release of Lucide.
