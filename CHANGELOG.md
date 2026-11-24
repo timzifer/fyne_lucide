@@ -1,5 +1,46 @@
 # Changelog
 
+## Lucide 1.79.0
+
+Updated from [1.74.0 to 1.79.0](https://github.com/lucide-icons/lucide/compare/1.74.0...1.79.0), 2104 icons in total.
+
+### Added (15)
+
+<details>
+<summary>Show icons</summary>
+
+- `app-window-plus` (`IconAppWindowPlus`)
+- `box-dashed` (`IconBoxDashed`)
+- `chocolate-bar` (`IconChocolateBar`)
+- `circle-speed-lines` (`IconCircleSpeedLines`)
+- `diagram-sankey` (`IconDiagramSankey`)
+- `folder-network` (`IconFolderNetwork`)
+- `folder-plus-corner` (`IconFolderPlusCorner`)
+- `graph-path` (`IconGraphPath`)
+- `hole` (`IconHole`)
+- `jacket` (`IconJacket`)
+- `package-arrow-bend-up-left` (`IconPackageArrowBendUpLeft`)
+- `paint-gun` (`IconPaintGun`)
+- `rectangle-landscape-play` (`IconRectangleLandscapePlay`)
+- `square-plus-corner` (`IconSquarePlusCorner`)
+- `user-round-clock` (`IconUserRoundClock`)
+
+</details>
+
+### Changed shape (6)
+
+<details>
+<summary>Show icons</summary>
+
+- `calendar-clock` (`IconCalendarClock`)
+- `clipboard-clock` (`IconClipboardClock`)
+- `file-clock` (`IconFileClock`)
+- `folder-clock` (`IconFolderClock`)
+- `mail-clock` (`IconMailClock`)
+- `spray-can` (`IconSprayCan`)
+
+</details>
+
 ## Lucide 1.74.0
 
 Updated from [0.93.0 to 1.74.0](https://github.com/lucide-icons/lucide/compare/v0.93.0...1.74.0), 2089 icons in total.
