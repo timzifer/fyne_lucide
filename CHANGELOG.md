@@ -1,5 +1,61 @@
 # Changelog
 
+## Lucide 1.80.0
+
+Updated from [1.74.0 to 1.80.0](https://github.com/lucide-icons/lucide/compare/1.74.0...1.80.0), 2119 icons in total.
+
+### Added (30)
+
+<details>
+<summary>Show icons</summary>
+
+- `app-window-mac-minus` (`IconAppWindowMacMinus`)
+- `app-window-mac-plus` (`IconAppWindowMacPlus`)
+- `app-window-minus` (`IconAppWindowMinus`)
+- `app-window-plus` (`IconAppWindowPlus`)
+- `box-dashed` (`IconBoxDashed`)
+- `chocolate-bar` (`IconChocolateBar`)
+- `circle-speed-lines` (`IconCircleSpeedLines`)
+- `columns-2-plus-left` (`IconColumns2PlusLeft`)
+- `columns-2-plus-right` (`IconColumns2PlusRight`)
+- `diagram-sankey` (`IconDiagramSankey`)
+- `file-text-sparkles` (`IconFileTextSparkles`)
+- `folder-network` (`IconFolderNetwork`)
+- `folder-plus-corner` (`IconFolderPlusCorner`)
+- `graph-path` (`IconGraphPath`)
+- `hole` (`IconHole`)
+- `image-sparkles` (`IconImageSparkles`)
+- `jacket` (`IconJacket`)
+- `list-x-corner` (`IconListXCorner`)
+- `package-arrow-bend-up-left` (`IconPackageArrowBendUpLeft`)
+- `paint-gun` (`IconPaintGun`)
+- `plane-off` (`IconPlaneOff`)
+- `rectangle-horizontal-plus` (`IconRectangleHorizontalPlus`)
+- `rectangle-landscape-play` (`IconRectangleLandscapePlay`)
+- `rows-2-plus-bottom` (`IconRows2PlusBottom`)
+- `rows-2-plus-top` (`IconRows2PlusTop`)
+- `screwdriver` (`IconScrewdriver`)
+- `square-plus-corner` (`IconSquarePlusCorner`)
+- `train-high-speed` (`IconTrainHighSpeed`)
+- `trash-leaf` (`IconTrashLeaf`)
+- `user-round-clock` (`IconUserRoundClock`)
+
+</details>
+
+### Changed shape (6)
+
+<details>
+<summary>Show icons</summary>
+
+- `calendar-clock` (`IconCalendarClock`)
+- `clipboard-clock` (`IconClipboardClock`)
+- `file-clock` (`IconFileClock`)
+- `folder-clock` (`IconFolderClock`)
+- `mail-clock` (`IconMailClock`)
+- `spray-can` (`IconSprayCan`)
+
+</details>
+
 ## Lucide 1.74.0
 
 Updated from [0.93.0 to 1.74.0](https://github.com/lucide-icons/lucide/compare/v0.93.0...1.74.0), 2089 icons in total.
