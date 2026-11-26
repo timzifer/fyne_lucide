@@ -1,5 +1,73 @@
 # Changelog
 
+## Lucide 1.81.0
+
+Updated from [1.74.0 to 1.81.0](https://github.com/lucide-icons/lucide/compare/1.74.0...1.81.0), 2123 icons in total.
+
+### Added (34)
+
+<details>
+<summary>Show icons</summary>
+
+- `app-window-mac-minus` (`IconAppWindowMacMinus`)
+- `app-window-mac-plus` (`IconAppWindowMacPlus`)
+- `app-window-minus` (`IconAppWindowMinus`)
+- `app-window-plus` (`IconAppWindowPlus`)
+- `bowl-chopsticks` (`IconBowlChopsticks`)
+- `box-dashed` (`IconBoxDashed`)
+- `chocolate-bar` (`IconChocolateBar`)
+- `circle-speed-lines` (`IconCircleSpeedLines`)
+- `columns-2-plus-left` (`IconColumns2PlusLeft`)
+- `columns-2-plus-right` (`IconColumns2PlusRight`)
+- `diagram-sankey` (`IconDiagramSankey`)
+- `elevator` (`IconElevator`)
+- `file-text-sparkles` (`IconFileTextSparkles`)
+- `folder-network` (`IconFolderNetwork`)
+- `folder-plus-corner` (`IconFolderPlusCorner`)
+- `globe-clock` (`IconGlobeClock`)
+- `graph-path` (`IconGraphPath`)
+- `hole` (`IconHole`)
+- `image-sparkles` (`IconImageSparkles`)
+- `jacket` (`IconJacket`)
+- `list-x-corner` (`IconListXCorner`)
+- `package-arrow-bend-up-left` (`IconPackageArrowBendUpLeft`)
+- `paint-gun` (`IconPaintGun`)
+- `plane-off` (`IconPlaneOff`)
+- `rectangle-horizontal-play` (`IconRectangleHorizontalPlay`)
+- `rectangle-horizontal-plus` (`IconRectangleHorizontalPlus`)
+- `rows-2-plus-bottom` (`IconRows2PlusBottom`)
+- `rows-2-plus-top` (`IconRows2PlusTop`)
+- `screwdriver` (`IconScrewdriver`)
+- `square-plus-corner` (`IconSquarePlusCorner`)
+- `steering-wheel` (`IconSteeringWheel`)
+- `train-high-speed` (`IconTrainHighSpeed`)
+- `trash-leaf` (`IconTrashLeaf`)
+- `user-round-clock` (`IconUserRoundClock`)
+
+</details>
+
+### Changed shape (14)
+
+<details>
+<summary>Show icons</summary>
+
+- `calendar-clock` (`IconCalendarClock`)
+- `clipboard-clock` (`IconClipboardClock`)
+- `file-clock` (`IconFileClock`)
+- `folder-clock` (`IconFolderClock`)
+- `mail-clock` (`IconMailClock`)
+- `monitor-smartphone` (`IconMonitorSmartphone`)
+- `rectangle-horizontal` (`IconRectangleHorizontal`)
+- `rectangle-vertical` (`IconRectangleVertical`)
+- `smartphone` (`IconSmartphone`)
+- `smartphone-charging` (`IconSmartphoneCharging`)
+- `smartphone-user-round` (`IconSmartphoneUserRound`)
+- `spray-can` (`IconSprayCan`)
+- `square-sigma` (`IconSquareSigma`)
+- `tablet-smartphone` (`IconTabletSmartphone`)
+
+</details>
+
 ## Lucide 1.74.0
 
 Updated from [0.93.0 to 1.74.0](https://github.com/lucide-icons/lucide/compare/v0.93.0...1.74.0), 2089 icons in total.

@@ -2,7 +2,7 @@
 
 [![CI](https://github.com/timzifer/fyne_lucide/actions/workflows/ci.yml/badge.svg)](https://github.com/timzifer/fyne_lucide/actions/workflows/ci.yml)
 
-[Lucide](https://lucide.dev/icons) (v1.74.0) for [Fyne](https://fyne.io) apps, embedded into your
+[Lucide](https://lucide.dev/icons) (v1.81.0) for [Fyne](https://fyne.io) apps, embedded into your
 binary and colorable at runtime. Requires Go 1.21+ and Fyne 2.3+.
 
 ## Install
