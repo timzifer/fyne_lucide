@@ -2,7 +2,7 @@
 
 package fyne_lucide
 
-// All 2089 icons of this package.
+// All 2140 icons of this package.
 var (
 	IconAArrowDown                       = icon{"a-arrow-down"}
 	IconAArrowUp                         = icon{"a-arrow-up"}
@@ -51,6 +51,10 @@ var (
 	IconAperture                         = icon{"aperture"}
 	IconAppWindow                        = icon{"app-window"}
 	IconAppWindowMac                     = icon{"app-window-mac"}
+	IconAppWindowMacMinus                = icon{"app-window-mac-minus"}
+	IconAppWindowMacPlus                 = icon{"app-window-mac-plus"}
+	IconAppWindowMinus                   = icon{"app-window-minus"}
+	IconAppWindowPlus                    = icon{"app-window-plus"}
 	IconApple                            = icon{"apple"}
 	IconArchive                          = icon{"archive"}
 	IconArchiveArrowDown                 = icon{"archive-arrow-down"}
@@ -145,6 +149,7 @@ var (
 	IconBadgeTurkishLira                 = icon{"badge-turkish-lira"}
 	IconBadgeX                           = icon{"badge-x"}
 	IconBaggageClaim                     = icon{"baggage-claim"}
+	IconBalcony                          = icon{"balcony"}
 	IconBallWave                         = icon{"ball-wave"}
 	IconBalloon                          = icon{"balloon"}
 	IconBan                              = icon{"ban"}
@@ -252,10 +257,14 @@ var (
 	IconBotX                             = icon{"bot-x"}
 	IconBottleWine                       = icon{"bottle-wine"}
 	IconBowArrow                         = icon{"bow-arrow"}
+	IconBowlChopsticks                   = icon{"bowl-chopsticks"}
 	IconBox                              = icon{"box"}
+	IconBoxDashed                        = icon{"box-dashed"}
 	IconBoxes                            = icon{"boxes"}
 	IconBoxesLinked                      = icon{"boxes-linked"}
+	IconBoxingGlove                      = icon{"boxing-glove"}
 	IconBraces                           = icon{"braces"}
+	IconBracesSigma                      = icon{"braces-sigma"}
 	IconBrackets                         = icon{"brackets"}
 	IconBrain                            = icon{"brain"}
 	IconBrainCircuit                     = icon{"brain-circuit"}
@@ -401,6 +410,7 @@ var (
 	IconChevronUp                        = icon{"chevron-up"}
 	IconChevronsDown                     = icon{"chevrons-down"}
 	IconChevronsDownUp                   = icon{"chevrons-down-up"}
+	IconChevronsDownUpOffset             = icon{"chevrons-down-up-offset"}
 	IconChevronsFromAxisDashedHorizontal = icon{"chevrons-from-axis-dashed-horizontal"}
 	IconChevronsFromAxisDashedVertical   = icon{"chevrons-from-axis-dashed-vertical"}
 	IconChevronsFromAxisHorizontal       = icon{"chevrons-from-axis-horizontal"}
@@ -410,12 +420,14 @@ var (
 	IconChevronsLeftRightEllipsis        = icon{"chevrons-left-right-ellipsis"}
 	IconChevronsRight                    = icon{"chevrons-right"}
 	IconChevronsRightLeft                = icon{"chevrons-right-left"}
+	IconChevronsRightLeftOffset          = icon{"chevrons-right-left-offset"}
 	IconChevronsToAxisDashedHorizontal   = icon{"chevrons-to-axis-dashed-horizontal"}
 	IconChevronsToAxisDashedVertical     = icon{"chevrons-to-axis-dashed-vertical"}
 	IconChevronsToAxisHorizontal         = icon{"chevrons-to-axis-horizontal"}
 	IconChevronsToAxisVertical           = icon{"chevrons-to-axis-vertical"}
 	IconChevronsUp                       = icon{"chevrons-up"}
 	IconChevronsUpDown                   = icon{"chevrons-up-down"}
+	IconChocolateBar                     = icon{"chocolate-bar"}
 	IconChurch                           = icon{"church"}
 	IconCigarette                        = icon{"cigarette"}
 	IconCigaretteOff                     = icon{"cigarette-off"}
@@ -496,6 +508,7 @@ var (
 	IconCircleSlash                      = icon{"circle-slash"}
 	IconCircleSlash2                     = icon{"circle-slash-2"}
 	IconCircleSmall                      = icon{"circle-small"}
+	IconCircleSpeedLines                 = icon{"circle-speed-lines"}
 	IconCircleStar                       = icon{"circle-star"}
 	IconCircleStop                       = icon{"circle-stop"}
 	IconCircleUser                       = icon{"circle-user"}
@@ -570,6 +583,8 @@ var (
 	IconCog                              = icon{"cog"}
 	IconCoins                            = icon{"coins"}
 	IconColumns2                         = icon{"columns-2"}
+	IconColumns2PlusLeft                 = icon{"columns-2-plus-left"}
+	IconColumns2PlusRight                = icon{"columns-2-plus-right"}
 	IconColumns3                         = icon{"columns-3"}
 	IconColumns3Cog                      = icon{"columns-3-cog"}
 	IconColumns4                         = icon{"columns-4"}
@@ -639,6 +654,7 @@ var (
 	IconDessert                          = icon{"dessert"}
 	IconDiagramFlowHorizontal            = icon{"diagram-flow-horizontal"}
 	IconDiagramFlowVertical              = icon{"diagram-flow-vertical"}
+	IconDiagramSankey                    = icon{"diagram-sankey"}
 	IconDiameter                         = icon{"diameter"}
 	IconDiamond                          = icon{"diamond"}
 	IconDiamondMinus                     = icon{"diamond-minus"}
@@ -696,6 +712,7 @@ var (
 	IconEighthNote                       = icon{"eighth-note"}
 	IconEighthNotes                      = icon{"eighth-notes"}
 	IconEject                            = icon{"eject"}
+	IconElevator                         = icon{"elevator"}
 	IconEllipse                          = icon{"ellipse"}
 	IconEllipsis                         = icon{"ellipsis"}
 	IconEllipsisVertical                 = icon{"ellipsis-vertical"}
@@ -778,6 +795,7 @@ var (
 	IconFileSymlink                      = icon{"file-symlink"}
 	IconFileTerminal                     = icon{"file-terminal"}
 	IconFileText                         = icon{"file-text"}
+	IconFileTextSparkles                 = icon{"file-text-sparkles"}
 	IconFileType                         = icon{"file-type"}
 	IconFileTypeCorner                   = icon{"file-type-corner"}
 	IconFileUp                           = icon{"file-up"}
@@ -827,11 +845,13 @@ var (
 	IconFolderKey                        = icon{"folder-key"}
 	IconFolderLock                       = icon{"folder-lock"}
 	IconFolderMinus                      = icon{"folder-minus"}
+	IconFolderNetwork                    = icon{"folder-network"}
 	IconFolderOpen                       = icon{"folder-open"}
 	IconFolderOpenDot                    = icon{"folder-open-dot"}
 	IconFolderOutput                     = icon{"folder-output"}
 	IconFolderPen                        = icon{"folder-pen"}
 	IconFolderPlus                       = icon{"folder-plus"}
+	IconFolderPlusCorner                 = icon{"folder-plus-corner"}
 	IconFolderRoot                       = icon{"folder-root"}
 	IconFolderSearch                     = icon{"folder-search"}
 	IconFolderSearch2                    = icon{"folder-search-2"}
@@ -894,6 +914,7 @@ var (
 	IconGlobe                            = icon{"globe"}
 	IconGlobeBan                         = icon{"globe-ban"}
 	IconGlobeCheck                       = icon{"globe-check"}
+	IconGlobeClock                       = icon{"globe-clock"}
 	IconGlobeCode                        = icon{"globe-code"}
 	IconGlobeLock                        = icon{"globe-lock"}
 	IconGlobeOff                         = icon{"globe-off"}
@@ -904,6 +925,7 @@ var (
 	IconGraduationCap                    = icon{"graduation-cap"}
 	IconGrape                            = icon{"grape"}
 	IconGraphHub                         = icon{"graph-hub"}
+	IconGraphPath                        = icon{"graph-path"}
 	IconGraphRing                        = icon{"graph-ring"}
 	IconGraphStar                        = icon{"graph-star"}
 	IconGrid2x2                          = icon{"grid-2x2"}
@@ -968,6 +990,7 @@ var (
 	IconHighlighter                      = icon{"highlighter"}
 	IconHikingStick                      = icon{"hiking-stick"}
 	IconHockeyStick                      = icon{"hockey-stick"}
+	IconHole                             = icon{"hole"}
 	IconHop                              = icon{"hop"}
 	IconHopOff                           = icon{"hop-off"}
 	IconHospital                         = icon{"hospital"}
@@ -994,6 +1017,7 @@ var (
 	IconImageOff                         = icon{"image-off"}
 	IconImagePlay                        = icon{"image-play"}
 	IconImagePlus                        = icon{"image-plus"}
+	IconImageSparkles                    = icon{"image-sparkles"}
 	IconImageUp                          = icon{"image-up"}
 	IconImageUpscale                     = icon{"image-upscale"}
 	IconImages                           = icon{"images"}
@@ -1007,6 +1031,7 @@ var (
 	IconIterationCcw                     = icon{"iteration-ccw"}
 	IconIterationCw                      = icon{"iteration-cw"}
 	IconIvBag                            = icon{"iv-bag"}
+	IconJacket                           = icon{"jacket"}
 	IconJapaneseYen                      = icon{"japanese-yen"}
 	IconJoystick                         = icon{"joystick"}
 	IconKanban                           = icon{"kanban"}
@@ -1128,6 +1153,7 @@ var (
 	IconListTree                         = icon{"list-tree"}
 	IconListVideo                        = icon{"list-video"}
 	IconListX                            = icon{"list-x"}
+	IconListXCorner                      = icon{"list-x-corner"}
 	IconLoader                           = icon{"loader"}
 	IconLoaderCircle                     = icon{"loader-circle"}
 	IconLoaderPinwheel                   = icon{"loader-pinwheel"}
@@ -1156,6 +1182,7 @@ var (
 	IconMailPlus                         = icon{"mail-plus"}
 	IconMailQuestionMark                 = icon{"mail-question-mark"}
 	IconMailSearch                       = icon{"mail-search"}
+	IconMailSend                         = icon{"mail-send"}
 	IconMailX                            = icon{"mail-x"}
 	IconMailbox                          = icon{"mailbox"}
 	IconMails                            = icon{"mails"}
@@ -1329,6 +1356,7 @@ var (
 	IconOrigami                          = icon{"origami"}
 	IconPackage                          = icon{"package"}
 	IconPackage2                         = icon{"package-2"}
+	IconPackageArrowBendUpLeft           = icon{"package-arrow-bend-up-left"}
 	IconPackageCheck                     = icon{"package-check"}
 	IconPackageMinus                     = icon{"package-minus"}
 	IconPackageOpen                      = icon{"package-open"}
@@ -1338,6 +1366,7 @@ var (
 	IconPackageSearch                    = icon{"package-search"}
 	IconPackageX                         = icon{"package-x"}
 	IconPaintBucket                      = icon{"paint-bucket"}
+	IconPaintGun                         = icon{"paint-gun"}
 	IconPaintRoller                      = icon{"paint-roller"}
 	IconPaintbrush                       = icon{"paintbrush"}
 	IconPaintbrushVertical               = icon{"paintbrush-vertical"}
@@ -1414,6 +1443,7 @@ var (
 	IconPizza                            = icon{"pizza"}
 	IconPlane                            = icon{"plane"}
 	IconPlaneLanding                     = icon{"plane-landing"}
+	IconPlaneOff                         = icon{"plane-off"}
 	IconPlaneTakeoff                     = icon{"plane-takeoff"}
 	IconPlantPot                         = icon{"plant-pot"}
 	IconPlay                             = icon{"play"}
@@ -1472,6 +1502,8 @@ var (
 	IconRectangleEllipsis                = icon{"rectangle-ellipsis"}
 	IconRectangleGoggles                 = icon{"rectangle-goggles"}
 	IconRectangleHorizontal              = icon{"rectangle-horizontal"}
+	IconRectangleHorizontalPlay          = icon{"rectangle-horizontal-play"}
+	IconRectangleHorizontalPlus          = icon{"rectangle-horizontal-plus"}
 	IconRectangleVertical                = icon{"rectangle-vertical"}
 	IconRecycle                          = icon{"recycle"}
 	IconRedo                             = icon{"redo"}
@@ -1515,6 +1547,8 @@ var (
 	IconRouteOff                         = icon{"route-off"}
 	IconRouter                           = icon{"router"}
 	IconRows2                            = icon{"rows-2"}
+	IconRows2PlusBottom                  = icon{"rows-2-plus-bottom"}
+	IconRows2PlusTop                     = icon{"rows-2-plus-top"}
 	IconRows3                            = icon{"rows-3"}
 	IconRows4                            = icon{"rows-4"}
 	IconRss                              = icon{"rss"}
@@ -1556,6 +1590,7 @@ var (
 	IconScreenShare                      = icon{"screen-share"}
 	IconScreenShareOff                   = icon{"screen-share-off"}
 	IconScrew                            = icon{"screw"}
+	IconScrewdriver                      = icon{"screwdriver"}
 	IconScroll                           = icon{"scroll"}
 	IconScrollText                       = icon{"scroll-text"}
 	IconSearch                           = icon{"search"}
@@ -1773,6 +1808,7 @@ var (
 	IconSquarePilcrow                    = icon{"square-pilcrow"}
 	IconSquarePlay                       = icon{"square-play"}
 	IconSquarePlus                       = icon{"square-plus"}
+	IconSquarePlusCorner                 = icon{"square-plus-corner"}
 	IconSquarePower                      = icon{"square-power"}
 	IconSquareRadical                    = icon{"square-radical"}
 	IconSquareRoundCorner                = icon{"square-round-corner"}
@@ -1788,6 +1824,15 @@ var (
 	IconSquareStop                       = icon{"square-stop"}
 	IconSquareTerminal                   = icon{"square-terminal"}
 	IconSquareText                       = icon{"square-text"}
+	IconSquareTextAlignBottomCenter      = icon{"square-text-align-bottom-center"}
+	IconSquareTextAlignBottomLeft        = icon{"square-text-align-bottom-left"}
+	IconSquareTextAlignBottomRight       = icon{"square-text-align-bottom-right"}
+	IconSquareTextAlignMiddleCenter      = icon{"square-text-align-middle-center"}
+	IconSquareTextAlignMiddleLeft        = icon{"square-text-align-middle-left"}
+	IconSquareTextAlignMiddleRight       = icon{"square-text-align-middle-right"}
+	IconSquareTextAlignTopCenter         = icon{"square-text-align-top-center"}
+	IconSquareTextAlignTopLeft           = icon{"square-text-align-top-left"}
+	IconSquareTextAlignTopRight          = icon{"square-text-align-top-right"}
 	IconSquareUser                       = icon{"square-user"}
 	IconSquareUserRound                  = icon{"square-user-round"}
 	IconSquareX                          = icon{"square-x"}
@@ -1798,6 +1843,8 @@ var (
 	IconSquircle                         = icon{"squircle"}
 	IconSquircleDashed                   = icon{"squircle-dashed"}
 	IconSquirrel                         = icon{"squirrel"}
+	IconStairsArrowDownLeft              = icon{"stairs-arrow-down-left"}
+	IconStairsArrowUpRight               = icon{"stairs-arrow-up-right"}
 	IconStamp                            = icon{"stamp"}
 	IconStar                             = icon{"star"}
 	IconStarCheck                        = icon{"star-check"}
@@ -1806,6 +1853,7 @@ var (
 	IconStarOff                          = icon{"star-off"}
 	IconStarPlus                         = icon{"star-plus"}
 	IconStarX                            = icon{"star-x"}
+	IconSteeringWheel                    = icon{"steering-wheel"}
 	IconStepBack                         = icon{"step-back"}
 	IconStepForward                      = icon{"step-forward"}
 	IconStethoscope                      = icon{"stethoscope"}
@@ -1928,10 +1976,12 @@ var (
 	IconTrailer                          = icon{"trailer"}
 	IconTrainFront                       = icon{"train-front"}
 	IconTrainFrontTunnel                 = icon{"train-front-tunnel"}
+	IconTrainHighSpeed                   = icon{"train-high-speed"}
 	IconTrainTrack                       = icon{"train-track"}
 	IconTramFront                        = icon{"tram-front"}
 	IconTransgender                      = icon{"transgender"}
 	IconTrash                            = icon{"trash"}
+	IconTrashLeaf                        = icon{"trash-leaf"}
 	IconTrashOff                         = icon{"trash-off"}
 	IconTreeDeciduous                    = icon{"tree-deciduous"}
 	IconTreePalm                         = icon{"tree-palm"}
@@ -1983,6 +2033,7 @@ var (
 	IconUserRound                        = icon{"user-round"}
 	IconUserRoundArrowLeft               = icon{"user-round-arrow-left"}
 	IconUserRoundCheck                   = icon{"user-round-check"}
+	IconUserRoundClock                   = icon{"user-round-clock"}
 	IconUserRoundCog                     = icon{"user-round-cog"}
 	IconUserRoundExclamationPoint        = icon{"user-round-exclamation-point"}
 	IconUserRoundGroup                   = icon{"user-round-group"}
